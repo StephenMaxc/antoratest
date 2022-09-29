@@ -1,0 +1,5 @@
+name: home
+title: 测试站点
+version: main
+nav:
+- modules/contribute/nav.adoc
