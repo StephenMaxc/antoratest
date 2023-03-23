@@ -1,0 +1,245 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr "Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:3
+#, no-wrap
+msgid "更新软件许可"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:8
+msgid ""
+"软件许可即将到期时 CodeMeter 会弹窗提示，用户可以联系{company}技术支持人员"
+"（以下简称“{company}”）来更新许可。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:10
+msgid ""
+"用户需要导出许可请求文件并发送给{company}，{company}会返回许可更新文件，用户"
+"使用许可更新文件，即可延长许可有效期。"
+msgstr ""
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:12
+#, no-wrap
+msgid "导出许可请求文件"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:16
+msgid "开始操作前，请确保："
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:18
+msgid "计算机已安装 CodeMeter 。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:19
+msgid "计算机已插上“加密狗” 。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:23
+msgid ""
+"点击位于系统托盘的 image:codemeter_icon.png[codemeter_icon] 打开 CodeMeter 控"
+"制中心。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:25
+msgid "选择需要更新的许可后，点击btn:[许可更新] 。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:26
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:82
+#, no-wrap
+msgid "update_license_1.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:29
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:85
+msgid "点击btn:[下一步] 。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:30
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:86
+#, no-wrap
+msgid "update_license_2.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:33
+msgid "选择 *创建许可请求* ，点击btn:[下一步] 。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:34
+#, no-wrap
+msgid "update_license_3.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:37
+msgid "选择 *扩展已存在的许可* ，点击btn:[下一步] 。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:38
+#, no-wrap
+msgid "update_license_4.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:41
+msgid "勾选 *Mech-Mind* ，点击btn:[下一步] 。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:42
+#, no-wrap
+msgid "update_license_5.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:46
+msgid ""
+"用户实际操作时开发商名称中 *Mech-Mind* 后的公司编码可能与上图所示不一致。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:48
+msgid "点击btn:[..]选择保存许可请求文件的位置后，点击btn:[提交] 。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:49
+#, no-wrap
+msgid "update_license_6.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:52
+msgid ""
+"如果有多个“加密狗”的许可需要更新，请重复步骤 2至7，为每一个“加密狗”导出许可请"
+"求文件。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:54
+msgid "将许可请求文件发给{company}。"
+msgstr ""
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:55
+#, no-wrap
+msgid "更新许可"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:58
+msgid ""
+"用户发出许可请求文件后，{company}将返回一个 WIBUCMRAU 格式的许可更新文件。双"
+"击这个文件即可更新许可，参考以下步骤检查许可是否更新成功"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:61
+msgid ""
+"单击系统托盘的 image:codemeter_icon.png[codemeter_icon] 打开 CodeMeter 控制中"
+"心。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:63
+msgid "选择需要检查的许可，点击右下角的btn:[Web管理界面] 。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:64
+#, no-wrap
+msgid "update_license_7.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:67
+msgid ""
+"在 *CodeMeter WebAdmin* 页面中，可以通过查看 *有效期* 时间，检查许可是否已更"
+"新。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:68
+#, no-wrap
+msgid "update_license_8.png"
+msgstr ""
+
+#. type: delimited block =
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:73
+msgid "永久许可的 *有效期至* 日期数据是 *n/a* 。"
+msgstr ""
+
+#. type: delimited block =
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:74
+msgid "点击页面上方的btn:[容器] 可查看其他“加密狗”的信息。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:77
+msgid ""
+"若双击 WIBUCMRAU 格式文件无法更新许可，可以参考以下步骤手动导入许可更新文件。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:79
+msgid ""
+"单击位于系统托盘的 image:codemeter_icon.png[codemeter_icon] 打开 CodeMeter 控"
+"制中心。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:81
+msgid "选择需要更新的许可，点击btn:[许可更新] 。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:89
+msgid "选择 *导入许可更新* ，点击btn:[下一步] 。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:90
+#, no-wrap
+msgid "update_license_9.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:93
+msgid "点击btn:[..]选择许可更新文件，然后点击btn:[提交] 。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/update-license.adoc:94
+#, no-wrap
+msgid "update_license_10.png"
+msgstr ""

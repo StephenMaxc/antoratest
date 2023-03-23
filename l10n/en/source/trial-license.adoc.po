@@ -1,0 +1,124 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/appendix/pages/trial-license.adoc:3
+#, no-wrap
+msgid "获取试用许可"
+msgstr "获取试用许可"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/trial-license.adoc:8
+msgid ""
+"{company}使用 Wibu-Systems 的 CodeMeter 作为软件的许可系统，不需要“加密狗”即"
+"可获得试用许可。"
+msgstr ""
+"{company}使用 Wibu-Systems 的 CodeMeter 作为软件的许可系统，不需要“加密狗”即"
+"可获得试用许可。"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/appendix/pages/trial-license.adoc:9
+#, no-wrap
+msgid "获取票单"
+msgstr "获取票单"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/trial-license.adoc:12
+msgid ""
+"联系{company}销售获取 *票单* （票单是由数字、字母、连字符组成的 25 位字符"
+"串），详细信息将通过电子邮件发送给用户。"
+msgstr ""
+"联系{company}销售获取 *票单* （票单是由数字、字母、连字符组成的 25 位字符"
+"串），详细信息将通过电子邮件发送给用户。"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/appendix/pages/trial-license.adoc:13
+#, no-wrap
+msgid "安装 CodeMeter"
+msgstr "安装 CodeMeter"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/trial-license.adoc:16
+msgid ""
+"CodeMeter 安装程序包含在软件安装包里，运行软件安装包即可安装 CodeMeter 。"
+msgstr ""
+"CodeMeter 安装程序包含在软件安装包里，运行软件安装包即可安装 CodeMeter 。"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/appendix/pages/trial-license.adoc:17
+#, no-wrap
+msgid "激活许可"
+msgstr "激活许可"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/trial-license.adoc:20
+msgid ""
+"在 link:++http://license.mech-mind.net/++[Mech-Mind License WebDepot] 中进行"
+"激活操作。"
+msgstr ""
+"在 link:++http://license.mech-mind.net/++[Mech-Mind License WebDepot] 中进行"
+"激活操作。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/trial-license.adoc:22
+msgid "激活流程如下："
+msgstr "激活流程如下："
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/trial-license.adoc:24
+msgid "复制票单后将其粘贴到 *Ticket* 输入框中，然后单击 btn:[Next] 。"
+msgstr "复制票单后将其粘贴到 *Ticket* 输入框中，然后单击 btn:[Next] 。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/trial-license.adoc:25
+#, no-wrap
+msgid "trial_license_1.png"
+msgstr "trial_license_1.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/trial-license.adoc:28
+msgid "选中许可后点击 btn:[Activate Selected Licenses Now] 进行许可下载。"
+msgstr "选中许可后点击 btn:[Activate Selected Licenses Now] 进行许可下载。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/trial-license.adoc:29
+#, no-wrap
+msgid "trial_license_2.png"
+msgstr "trial_license_2.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/trial-license.adoc:32
+msgid "下载成功后将显示下图所示信息，点击 btn:[OK] 。"
+msgstr "下载成功后将显示下图所示信息，点击 btn:[OK] 。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/trial-license.adoc:33
+#, no-wrap
+msgid "trial_license_3.png"
+msgstr "trial_license_3.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/trial-license.adoc:36
+msgid "打开 CodeMeter 控制中心，确认许可信息。"
+msgstr "打开 CodeMeter 控制中心，确认许可信息。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/trial-license.adoc:37
+#, no-wrap
+msgid "trial_license_4.png"
+msgstr "trial_license_4.png"

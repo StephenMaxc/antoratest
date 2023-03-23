@@ -1,0 +1,252 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr "Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:3
+#, no-wrap
+msgid "关于 {product-dlk}"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:8
+msgid ""
+"{product-dlk} 是{company}机器人自主研发的机器视觉深度学习软件，内置多种业界领"
+"先的深度学习算法，能够解决很多传统机器视觉无法处理的问题，如高难度的分割、定"
+"位、分类问题等。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:10
+msgid ""
+"借助直观简易的交互界面，用户无需编程，也无需掌握专业的深度学习知识，即可通过 "
+"{product-dlk} 快速实现模型训练与验证。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:11
+#, no-wrap
+msgid "dlk_flow_chart.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:14
+msgid ""
+"软件内包含“快速定位”、“缺陷分割”、“图像分类”、“目标检测”、“实例分割”五个算法"
+"模块。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:15
+#, no-wrap
+msgid "quick_location.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:19
+#, no-wrap
+msgid "*定位角度，根据定位结果转正图像。*\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:21
+msgid "用于修正物体姿态，速度快，通常作为其它算法模块的前置模块。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:23
+msgid "定位零器件角度并修正为统一的姿态。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:24
+#, no-wrap
+msgid "quick_location_1.png"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:26
+#, no-wrap
+msgid "defect_segementation.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:29
+#, no-wrap
+msgid "*判断图像是 OK 还是 NG。若为 NG，则分割出缺陷区域。*\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:31
+msgid ""
+"用于检出各种类型的缺陷。如污渍、气泡、划痕等表面缺陷，折弯、异形、缺漏等位置"
+"缺陷。在缺陷微小、背景复杂、工件位置不固定等复杂情况下依然适用。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:33
+msgid "检出镜头表面的气泡和溢胶缺陷。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:34
+#, no-wrap
+msgid "defection_1.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:37
+msgid "检出零器件的折弯缺陷。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:38
+#, no-wrap
+msgid "defection_2.png"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:40
+#, no-wrap
+msgid "classification.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:43
+#, no-wrap
+msgid "*判断图像的类别。*\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:45
+msgid ""
+"用于区分工件正反面、朝向，区分物体缺陷种类，判断物体是否缺失、排列是否整齐。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:47
+msgid "区分工件处于整齐摆放状态还是散乱状态。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:48
+#, no-wrap
+msgid "classification_1.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:51
+msgid "区分工件正反面。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:52
+#, no-wrap
+msgid "classification_2.png"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:54
+#, no-wrap
+msgid "detection.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:57
+#, no-wrap
+msgid "*检测所有目标物体的位置，同时判断其类别。*\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:59
+msgid ""
+"用于检测固定位置工件的缺失，例如 PCB 中元器件缺失，也可用于物体计数。即使对成"
+"百上千个物体，也可以快速完成定位与计数。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:61
+msgid "检测互相压叠的转子。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:62
+#, no-wrap
+msgid "detection_1.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:65
+msgid "对所有钢筋计数。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:66
+#, no-wrap
+msgid "detection_2.png"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:68
+#, no-wrap
+msgid "instance_segmentation.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:71
+#, no-wrap
+msgid "*分割出每个目标物体的轮廓，同时判断其类别。*\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:73
+msgid ""
+"比目标检测的分割结果更精细，可区分单类或多类的物体，并分割出相应的轮廓。用于"
+"拆码垛、上下料、货品拣选等场景，配合 Mech-Vision 和 Mech-Viz 完成物体抓取。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:75
+msgid "分割多种形状的积木。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:76
+#, no-wrap
+msgid "instance_segmentation_1.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:79
+msgid "分割散乱压叠的链轨节。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:80
+#, no-wrap
+msgid "instance_segmentation_2.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:83
+msgid "分割并排紧密码放的纸箱。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/mech-dlk.adoc:84
+#, no-wrap
+msgid "instance_segmentation_3.png"
+msgstr ""

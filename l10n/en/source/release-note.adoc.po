@@ -1,0 +1,235 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:1
+#, no-wrap
+msgid "软件更新说明"
+msgstr "软件更新说明"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:3
+#, no-wrap
+msgid "{product-dlk} 2.3.0 更新说明"
+msgstr "{product-dlk} 2.3.0 更新说明"
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:5
+#, no-wrap
+msgid "更新显卡驱动版本"
+msgstr "更新显卡驱动版本"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:8
+msgid "使用 {product-dlk} 2.3.0 软件前，显卡驱动版本需要更新至 472.50 以上。"
+msgstr "使用 {product-dlk} 2.3.0 软件前，显卡驱动版本需要更新至 472.50 以上。"
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:9
+#, no-wrap
+msgid "提升训练速度"
+msgstr "提升训练速度"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:12
+msgid ""
+"优化了算法，训练模型的速度明显提升；训练过程中只保存最优模型，无法中途停止训"
+"练。"
+msgstr ""
+"优化了算法，训练模型的速度明显提升；训练过程中只保存最优模型，无法中途停止训"
+"练。"
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:13
+#, no-wrap
+msgid "新增智能标注功能"
+msgstr "新增智能标注功能"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:16
+msgid ""
+"在“缺陷分割”、“实例分割”、“目标检测”模块下，选择 xref:advanced-guide:smart-"
+"labeling-tool.adoc#smart-labeling-tool[智能标注工具]，点击待标注物体中心位置"
+"可以快速形成标注，右键删除多余标注区域，回车键完成标注。"
+msgstr ""
+"在“缺陷分割”、“实例分割”、“目标检测”模块下，选择 xref:advanced-guide:smart-"
+"labeling-tool.adoc#smart-labeling-tool[智能标注工具]，点击待标注物体中心位置"
+"可以快速形成标注，右键删除多余标注区域，回车键完成标注。"
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:17
+#, no-wrap
+msgid "新增多边形标注锚点增减功能"
+msgstr "新增多边形标注锚点增减功能"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:20
+msgid ""
+"在“实例分割”和“目标检测”模块下，使用多边形标注工具标注完成后，若需修改标注结"
+"果，可在两个锚点之间的线上单击左键来增加锚点，选中锚点单击右键可以删除锚点。"
+msgstr ""
+"在“实例分割”和“目标检测”模块下，使用多边形标注工具标注完成后，若需修改标注结"
+"果，可在两个锚点之间的线上单击左键来增加锚点，选中锚点单击右键可以删除锚点。"
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:21
+#, no-wrap
+msgid "新增标注印章工具"
+msgstr "新增标注印章工具"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:24
+msgid ""
+"在“实例分割”和“目标检测”模块下，使用 xref:advanced-guide:smart-labeling-tool."
+"adoc#template-tool[印章工具]可以将已有的任意标注设置为模板，设置完成后可以直"
+"接点击进行标注。适用于图像中有多个同类别物体且摆放整齐的场景，可以提高标注效"
+"率。"
+msgstr ""
+"在“实例分割”和“目标检测”模块下，使用 xref:advanced-guide:smart-labeling-tool."
+"adoc#template-tool[印章工具]可以将已有的任意标注设置为模板，设置完成后可以直"
+"接点击进行标注。适用于图像中有多个同类别物体且摆放整齐的场景，可以提高标注效"
+"率。"
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:25
+#, no-wrap
+msgid "新增缩放预览功能"
+msgstr "新增缩放预览功能"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:28
+msgid ""
+"支持预览单张图像和剪切后的小图，参考 xref:defect-segmentation:solve-"
+"difficult-problems.adoc#preview-resized-image[缩放预览功能]。"
+msgstr ""
+"支持预览单张图像和剪切后的小图，参考 xref:defect-segmentation:solve-"
+"difficult-problems.adoc#preview-resized-image[缩放预览功能]。"
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:29
+#, no-wrap
+msgid "优化网格剪切工具"
+msgstr "优化网格剪切工具"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:32
+msgid ""
+"优化 xref:defect-segmentation:solve-difficult-problems.adoc#cutting-tool[网格"
+"剪切功能]，剪切网格后，可以点击网格单元左上角的方框来选中单元图像，点击小图右"
+"上角按钮可以预览。"
+msgstr ""
+"优化 xref:defect-segmentation:solve-difficult-problems.adoc#cutting-tool[网格"
+"剪切功能]，剪切网格后，可以点击网格单元左上角的方框来选中单元图像，点击小图右"
+"上角按钮可以预览。"
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:33
+#, no-wrap
+msgid "优化数据筛选机制"
+msgstr "优化数据筛选机制"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:36
+msgid ""
+"新增结果类型筛选项，可按“正确的结果”、“错误的结果”、“过检”、“漏检”标签来筛选"
+"数据。新增数据类型筛选项：“已标注为OK”和“已标注为NG”选项。"
+msgstr ""
+"新增结果类型筛选项，可按“正确的结果”、“错误的结果”、“过检”、“漏检”标签来筛选"
+"数据。新增数据类型筛选项：“已标注为OK”和“已标注为NG”选项。"
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:37
+#, no-wrap
+msgid "深度学习环境内置"
+msgstr "深度学习环境内置"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:40
+msgid ""
+"深度学习环境内置到 {product-dlk} 软件里，不需要单独安装环境即可训练模型。"
+msgstr ""
+"深度学习环境内置到 {product-dlk} 软件里，不需要单独安装环境即可训练模型。"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:41
+#, no-wrap
+msgid "{product-dlk} 2.2.1 更新说明"
+msgstr "{product-dlk} 2.2.1 更新说明"
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:43
+#, no-wrap
+msgid "新增“图像分类”模块新增类激活图显示功能"
+msgstr "新增“图像分类”模块新增类激活图显示功能"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:46
+msgid ""
+"模型训练完成后，点击 xref:classification:improve-model-accuracy.adoc#show-"
+"class-activatation-maps[生成类激活图] 可以通过热力图的形式体现特征的权重，模"
+"型基于这些特征将该图像分为此类别。颜色越红的区域，在分为此类别的过程中所占的"
+"权重越大。"
+msgstr ""
+"模型训练完成后，点击 xref:classification:improve-model-accuracy.adoc#show-"
+"class-activatation-maps[生成类激活图] 可以通过热力图的形式体现特征的权重，模"
+"型基于这些特征将该图像分为此类别。颜色越红的区域，在分为此类别的过程中所占的"
+"权重越大。"
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:47
+#, no-wrap
+msgid "新增CPU 版本模型的验证及导出功能"
+msgstr "新增CPU 版本模型的验证及导出功能"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:50
+#, no-wrap
+msgid "*图像分类、目标检测*：训练完成后，导出模型前可以将部署设备选为 CPU 或 GPU。\n"
+msgstr "*图像分类、目标检测*：训练完成后，导出模型前可以将部署设备选为 CPU 或 GPU。\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:52
+#, no-wrap
+msgid "*实例分割*：训练模型前，设置训练参数。导出模型时，可以在 CPU/GPU 之间选择部署设备，具体如下:\n"
+msgstr "*实例分割*：训练模型前，设置训练参数。导出模型时，可以在 CPU/GPU 之间选择部署设备，具体如下:\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:54
+msgid ""
+"xref:instance-segmentation:cpu-model-validation-and-exportation."
+"adoc#instance-cpu-model[CPU 轻量模型]：训练模型前，将训练参数 *模型类型* 选"
+"为 *轻量（推荐使用 CPU 部署）* ，导出模型部署时，可以将 *部署设备* 选为 "
+"*CPU* 或 *GPU* 。"
+msgstr ""
+"xref:instance-segmentation:cpu-model-validation-and-exportation."
+"adoc#instance-cpu-model[CPU 轻量模型]：训练模型前，将训练参数 *模型类型* 选"
+"为 *轻量（推荐使用 CPU 部署）* ，导出模型部署时，可以将 *部署设备* 选为 "
+"*CPU* 或 *GPU* 。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/release-note.adoc:56
+msgid ""
+"xref:instance-segmentation:cpu-model-validation-and-exportation."
+"adoc#instance-gpu-model[GPU 标准模型]：训练模型前，将训练参数 *模型类型* 选"
+"为 *标准（推荐使用 GPU 部署）* ，导出模型部署时，推荐将 *部署设备* 选为 "
+"*GPU* 。"
+msgstr ""
+"xref:instance-segmentation:cpu-model-validation-and-exportation."
+"adoc#instance-gpu-model[GPU 标准模型]：训练模型前，将训练参数 *模型类型* 选"
+"为 *标准（推荐使用 GPU 部署）* ，导出模型部署时，推荐将 *部署设备* 选为 "
+"*GPU* 。"

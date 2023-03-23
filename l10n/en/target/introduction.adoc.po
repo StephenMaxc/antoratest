@@ -1,0 +1,368 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr "Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/developer-model.adoc:41
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/developer-model.adoc:47
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/developer-model.adoc:59
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/developer-model.adoc:116
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/developer-model.adoc:124
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/filter-images.adoc:11
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/filter-images.adoc:24
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:14
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:18
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/introduction.adoc:9
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/introduction.adoc:13
+#, no-wrap
+msgid "Unnamed image"
+msgstr ""
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/classification/pages/introduction.adoc:1
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/introduction.adoc:1
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/introduction.adoc:1
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/introduction.adoc:1
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/introduction.adoc:1
+#, no-wrap
+msgid "算法介绍"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/introduction.adoc:6
+msgid "图像分类可以判断图像的类别。"
+msgstr ""
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/classification/pages/introduction.adoc:7
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/introduction.adoc:6
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/introduction.adoc:5
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/introduction.adoc:7
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/introduction.adoc:7
+#, no-wrap
+msgid "应用场景"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/introduction.adoc:10
+#, no-wrap
+msgid "*工件上下料*：适用于钢铁、机械等行业中，区分各类零部件正反面、朝向、种类等信息。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/introduction.adoc:11
+#, no-wrap
+msgid "introduction_classification_1.png"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/introduction.adoc:13
+#, no-wrap
+msgid "introduction_classification_2.png"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/introduction.adoc:15
+#, no-wrap
+msgid "introduction_classification_3.png"
+msgstr ""
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/classification/pages/introduction.adoc:17
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/introduction.adoc:22
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/introduction.adoc:11
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/introduction.adoc:43
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/introduction.adoc:18
+#, no-wrap
+msgid "应用流程"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/introduction.adoc:19
+#, no-wrap
+msgid "introduction_application_flow.png"
+msgstr ""
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/classification/pages/introduction.adoc:21
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/introduction.adoc:26
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/introduction.adoc:49
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/introduction.adoc:22
+#, no-wrap
+msgid "应用要点"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/introduction.adoc:24
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/introduction.adoc:29
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/introduction.adoc:53
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/introduction.adoc:25
+msgid "以下几点有助于提高模型质量："
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/introduction.adoc:26
+msgid ""
+"确保图像质量 xref:improve-model-accuracy.adoc#classification-dataset-"
+"quality[前往章节>] 。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/introduction.adoc:27
+msgid ""
+"确保数据集质量 xref:improve-model-accuracy.adoc#classification-collect-"
+"data[前往章节>] 。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/introduction.adoc:27
+msgid ""
+"确保标注质量 xref:improve-model-accuracy.adoc#classification-label-quality[前"
+"往章节>] 。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/introduction.adoc:5
+msgid "缺陷分割可以判断并分割出图像中的缺陷区域。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/introduction.adoc:9
+#, no-wrap
+msgid "*新能源行业*：用于检出各种类型的缺陷。在缺陷微小、背景复杂、工件位置不固定等复杂情况下依然适用（如锂电池的焊缝检测及外观检测等）。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/introduction.adoc:11
+#, no-wrap
+msgid "introduction-defection_1.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/introduction.adoc:14
+#, no-wrap
+msgid "*电子制造业*：适用于功能模组和电子元器件的缺陷检出，如污渍、气泡、划痕等表面缺陷。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/introduction.adoc:15
+#, no-wrap
+msgid "introduction-defection_2.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/introduction.adoc:18
+#, no-wrap
+msgid "*PCB、印刷、日用品制造等行业*：适用于 PCB 基板、接插件、印刷产品、日用品等物品表面的缺陷检测、异形检测等，如划伤、异物等缺陷。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/introduction.adoc:20
+#, no-wrap
+msgid "introduction-defection_3.png"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/introduction.adoc:24
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/introduction.adoc:46
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/introduction.adoc:20
+#, no-wrap
+msgid "introduction-application_flow.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/introduction.adoc:31
+msgid ""
+"确保标注质量 xref:improve-model-accuracy.adoc#defect-label-quality[前往章节"
+">] 。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/introduction.adoc:33
+msgid ""
+"设置合理的感兴趣区域（ROI） xref:improve-model-accuracy.adoc#set-reasonable-"
+"roi[前往章节>] 。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/introduction.adoc:35
+msgid ""
+"选择合适的训练集 xref:improve-model-accuracy.adoc#select-defect-training-"
+"set[前往章节>] 。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/introduction.adoc:4
+msgid "快速定位可以检测图像目标区域中的物体并旋转图像至指定朝向。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/introduction.adoc:8
+msgid ""
+"电子制造业：适用于电子元器件散乱来料时，定位不同角度元器件并将其旋转为一致角"
+"度的场景。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/introduction.adoc:9
+#, no-wrap
+msgid "introduction_fast_positioning.png"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/introduction.adoc:13
+#, no-wrap
+msgid "introduction_applicate_flow.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/introduction.adoc:6
+msgid "实例分割可以分割出每个目标物体的轮廓，同时输出类别标签。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/introduction.adoc:10
+#, no-wrap
+msgid "*拆码垛*：适用于从托盘上按要求拆卸纸箱、周转箱、麻袋等物体，并放置于托盘或相关设备上（如破袋设备、传送带等）的场景。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/introduction.adoc:12
+#, no-wrap
+msgid "introduction-sack.png"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/introduction.adoc:15
+#, no-wrap
+msgid "introduction-instance_segmentation_3.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/introduction.adoc:19
+#, no-wrap
+msgid "*工件上下料*：适用于汽车、钢铁、机械等行业中复杂工件、结构件、不规则零部件等物体的搬运抓取场景。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/introduction.adoc:21
+#, no-wrap
+msgid "introduction-rotor.png"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/introduction.adoc:24
+#, no-wrap
+msgid "introduction-instance_segmentation_2.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/introduction.adoc:28
+#, no-wrap
+msgid "*货品拣选*：适用于播种、摘果等各种电商仓库中的常见拣货场景。支持各种货品，包括充气袋装、透明包装、瓶装铝罐、不规则的货品等。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/introduction.adoc:30
+#, no-wrap
+msgid "introduction-goods.png"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/introduction.adoc:33
+#, no-wrap
+msgid "introduction-instance_segmentation_introduce.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/introduction.adoc:37
+#, no-wrap
+msgid "*快递包裹供包*：支持快递软包、邮政信封、快递纸箱、泡沫信封等各种常见包裹，同时可支持各种包裹异形件。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/introduction.adoc:39
+#, no-wrap
+msgid "introduction-package.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/introduction.adoc:55
+msgid ""
+"确保图像质量 xref:improve-model-accuracy.adoc#dataset-quality[前往章节>] 。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/introduction.adoc:57
+msgid ""
+"确保数据集质量 xref:improve-model-accuracy.adoc#collect-data[前往章节>] 。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/introduction.adoc:59
+msgid ""
+"确保标注质量 xref:improve-model-accuracy.adoc#label-quality[前往章节>] 。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/introduction.adoc:6
+msgid "目标检测可以检测所有目标物体的位置，同时判断其类别。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/introduction.adoc:10
+#, no-wrap
+msgid "*工件计数*：适用于工厂中成捆钢筋、散乱金属件，以及细小的零部件等的计数场景。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/introduction.adoc:12
+#, no-wrap
+msgid "introduction-detection_2.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/introduction.adoc:15
+#, no-wrap
+msgid "*检测工件位置*：适用于工厂中或车间流水线上检测并提取零件所在区域的场景。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/introduction.adoc:16
+#, no-wrap
+msgid "introduction-detection_1.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/introduction.adoc:27
+msgid ""
+"确保图像质量 xref:improve-model-accuracy.adoc#object-detection-dataset-"
+"quality[前往章节>] 。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/introduction.adoc:29
+msgid ""
+"确保数据集质量 xref:improve-model-accuracy.adoc#collect-object-detection-"
+"dataset[前往章节>] 。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/introduction.adoc:31
+msgid ""
+"确保标注质量 xref:improve-model-accuracy.adoc#label-object-quality[前往章节"
+">] 。"
+msgstr ""

@@ -1,0 +1,561 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr "Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/operation-model.adoc:14
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:35
+#, no-wrap
+msgid "\n"
+msgstr "\n"
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:1
+#, no-wrap
+msgid "使用图像分类模块"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:6
+msgid ""
+"本章提供 Mech-DLK 示例工程中的冷凝管数据集（ link:++https://docs.mech-mind."
+"net//download/Mech-DLK/Classification(Condenser).zip++[点击下载] ），带领用户"
+"使用“图像分类”模块训练模型，达到示例工程中区分工件的正反面的效果。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:9
+#, no-wrap
+msgid ""
+"*新建工程并添加“图像分类”模块*：点击初始页面上的 btn:[新建工程] ，选择工程路径并输入工程名以新建一个工程。再点击右上角的 \n"
+"image:example_projects_icon_create.png[icon_create]，选择“图像分类”模块。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:10
+#, no-wrap
+msgid "example_projects_add_project.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:13
+#, no-wrap
+msgid "*导入工件正反面图像数据集*：解压缩下载的数据集压缩包，点击左上方的btn:[导入]，选择btn:[文件夹]导入下载好的图像数据集。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:14
+#, no-wrap
+msgid "example_projects_import_images.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:16
+#, no-wrap
+msgid "*截取 ROI*：点击窗口左侧的 btn:[ROI] 框选选项从图像中框选整个冷凝管作为感兴趣区域，并点击左上方的btn:[应用] 确认使用。截取 ROI 的目的是减少无关背景信息的干扰。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:17
+#, no-wrap
+msgid "example_projects_roi_classification.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:20
+#, no-wrap
+msgid "*创建标签*：根据物体名称或特征创建对应的标签，此处需要区分工件正反面，所以直接以正反命名。\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:21
+#, no-wrap
+msgid "*标注图像*：图像左侧标注工具栏选择对应的标签进行标注，可以同时选中多张图像进行标注。务必确保标签的一致性，禁止出现将图像反面标注为正面的情况。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:22
+#, no-wrap
+msgid "example_projects_classification_label.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:25
+msgid "图像分类”模块支持同时选中多张图像进行批量标注。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:27
+#, no-wrap
+msgid "*划分训练集与验证集*：软件默认将数据集的 80% 划分为训练集，20% 为验证集。需要确保训练集和验证集中都包含 *所有种类* 的图像，目的是让算法模块在训练过程中可以学习所有种类图像的特征，并对所有种类的图像进行验证。如果默认划分的数据集不满足这一条件，可以点击 image:example_projects_icon_slider.png[icon_slider] 拖动滑块手动调整。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:28
+#, no-wrap
+msgid "example_projects_move_image.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:30
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/example-projects.adoc:51
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/example-projects.adoc:44
+#, no-wrap
+msgid "*训练模型*：使用默认参数设定，点击 btn:[训练] 开始训练模型。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:31
+#, no-wrap
+msgid "example_projects_training_chart.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:34
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/example-projects.adoc:30
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/example-projects.adoc:57
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/example-projects.adoc:52
+#, no-wrap
+msgid "*验证模型*：训练结束后，点击 btn:[验证] 可以验证并查看模型识别效果。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:35
+#, no-wrap
+msgid "example_projects_result_verification.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:37
+#, no-wrap
+msgid "*导出模型*：点击 btn:[导出模型] ，选择存放路径即可导出模型 model.dlkpack 到指定文件夹，用户可以根据需求部署模型。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:38
+#, no-wrap
+msgid "example_projects_model_files.png"
+msgstr ""
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:3
+#, no-wrap
+msgid "使用缺陷分割模块"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:8
+msgid ""
+"本章提供 Mech-DLK 示例工程中的网口金手指图像数据集 （ link:++https://docs."
+"mech-mind.net//download/Mech-DLK/DefectSegmentation(NetworkPort).rar++[点击下"
+"载] ），带领用户使用“缺陷分割”模块训练模型。区别于 xref:quick-start[开始训练"
+"第一个模型] 的内容，本章将从标注缺陷、选取训练验证集以及调整模型验证标准等方"
+"面，说明如何操作以达到示例工程中检出网口金手指的弯折、断裂缺陷的效果。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:11
+#, no-wrap
+msgid "*新建工程并添加“缺陷分割”模块*：点击初始页面上的btn:[新建工程] ，选择工程路径并输入工程名以新建一个工程。再点击右上角的 image:example-projects-icon_create.png[icon_create]，选择“缺陷分割”模块。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:13
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/example-projects.adoc:12
+#, no-wrap
+msgid "example-projects-add_new_module.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:16
+#, no-wrap
+msgid "*导入网口金手指图像数据集*：解压缩下载的数据集压缩包，点击左上方的btn:[导入] ，选择btn:[文件夹] 导入下载的图像数据集。金手指图像数据集中包含金手指弯折、断裂以及完好的情况。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:17
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/example-projects.adoc:19
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/example-projects.adoc:17
+#, no-wrap
+msgid "example-projects-import_images.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:20
+#, no-wrap
+msgid "*截取 ROI*：点击设置 ROI 选项 image:example-projects-icon_roi.png[icon_roi]来从图像中框选网口上的金手指作为感兴趣区域，并点击左上方的btn:[应用] 确认使用。截取 ROI 的目的是减少无关背景信息的干扰。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:21
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/example-projects.adoc:26
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/example-projects.adoc:23
+#, no-wrap
+msgid "example-projects-roi.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:24
+#, no-wrap
+msgid "*标注图像*：本例中需要标注数据集中的 OK 图像，以及包含网口金手指弯折、断裂缺陷的NG图像。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:25
+#, no-wrap
+msgid "example-projects-ok_defect_features.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:28
+msgid ""
+"对于 NG 图像，请使用标注工具标出缺陷区域。标注时应注意画笔紧贴缺陷边缘标注，"
+"请避免包含大量非缺陷区域的情况。标注质量是影响模型效果的最主要因素，更多标注"
+"规则参考 xref:defect-label-quality[确保标注质量]。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:29
+#, no-wrap
+msgid "example-projects-label_data.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:32
+msgid ""
+"对于 OK 图像，请在左侧图像列表中选中图像，单击鼠标右键，选择btn:[设置为OK] 。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:33
+#, no-wrap
+msgid "example-projects-label_ok.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:37
+#, no-wrap
+msgid "*划分训练集与验证集*：需要确保训练集和验证集分别涵盖所有的缺陷种类，且至少包含 1 张 OK 图像。如果训练集或验证集中缺少某种缺陷样本，“缺陷分割”模块将无法有效学习该缺陷特征，导致训练出的模型难以识别该缺陷。此时应右键单击图像名称以切换图像归属于训练集还是验证集。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:38
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/example-projects.adoc:48
+#, no-wrap
+msgid "example-projects-move_image.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:41
+#, no-wrap
+msgid "*训练模型*：使用默认参数设定，点击btn:[训练] 开始训练模型。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:43
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/example-projects.adoc:53
+#, no-wrap
+msgid "example-projects-training_chart.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:46
+#, no-wrap
+msgid "*验证模型*：训练结束后，点击btn:[验证] 可以验证并查看模型识别效果。用户还可使用btn:[缺陷筛选工具] 调整缺陷判定规则。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:47
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/example-projects.adoc:59
+#, no-wrap
+msgid "example-projects-result_verification.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:51
+#, no-wrap
+msgid "*导出模型*：点击btn:[导出模型] 选择存放路径即可导出模型到工程文件夹，用户可以根据需求部署模型。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/example-projects.adoc:53
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/example-projects.adoc:65
+#, no-wrap
+msgid "example-projects-model_files.png"
+msgstr ""
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/example-projects.adoc:1
+#, no-wrap
+msgid "使用快速定位模块"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/example-projects.adoc:6
+msgid ""
+"本章提供网口数据集（ link:++https://docs.mech-mind.net//download/Mech-DLK/"
+"FastPositioning.rar++[点击下载] ），带领用户使用快速模块训练模型将图像中的物"
+"体旋转至指定朝向。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/example-projects.adoc:8
+#, no-wrap
+msgid "*新建工程并添加快速定位模块*：点击初始显示页面上的 btn:[新建工程] ，选择工程路径并输入工程名以新建一个工程。再点击右上角的 image:icon_create.png[icon_create]，选择快速定位模块。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/example-projects.adoc:9
+#, no-wrap
+msgid "fast_positioning.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/example-projects.adoc:12
+#, no-wrap
+msgid "*母版设置*：点击 btn:[母版设置] ，选取两处特征区域。 点击 *feature1* 下的 image:draw.png[draw] 框选第一处特征 ，再点击 *feature2* 下的 image:draw.png[draw] 框选第二处特征，选中特征框移动旋转按钮可以调整角度。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/example-projects.adoc:13
+#, no-wrap
+msgid "template.png"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/example-projects.adoc:15
+#, no-wrap
+msgid "feature.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/example-projects.adoc:18
+msgid ""
+"拖动滑块或点击 image:minus_sign.png[minus_sign] 和 image:plus.png[plus] 调整"
+"角度到期望图像朝向后点击 image:end.png[end] 。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/example-projects.adoc:19
+#, no-wrap
+msgid "rotate.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/example-projects.adoc:22
+#, no-wrap
+msgid "*修改标注*：点击 image:label.png[label] 后再点击标注界面，会出现标注信息，选中矩形框拖拽或旋转按钮调整角度到相应的位置角度。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/example-projects.adoc:23
+#, no-wrap
+msgid "label_image.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/example-projects.adoc:26
+#, no-wrap
+msgid "*训练模型*：点击 btn:[训练] 开始训练模型。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/example-projects.adoc:27
+#, no-wrap
+msgid "training.png"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/example-projects.adoc:31
+#, no-wrap
+msgid "locate_validation.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/example-projects.adoc:34
+#, no-wrap
+msgid "*导出模型*：点击 btn:[导出模型] 并选择存放路径即可导出模型到工程文件夹，用户可以根据需求部署模型。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/example-projects.adoc:35
+#, no-wrap
+msgid "locate_export_model.png"
+msgstr ""
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/example-projects.adoc:3
+#, no-wrap
+msgid "使用实例分割模块"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/example-projects.adoc:8
+msgid ""
+"本章将为用户提供 Mech-DLK 示例工程中的积木数据集 （ link:++https://docs.mech-"
+"mind.net//download/Mech-DLK/InstanceSegmentation(Blocks).zip++[点击下载] ），"
+"带领用户使用“实例分割”模块训练模型，达到示例工程中分割不同种类的积木并输出类"
+"别标签的效果。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/example-projects.adoc:11
+#, no-wrap
+msgid "*新建工程并添加“实例分割”模块*：点击初始页面上的 btn:[新建工程] ，选择工程路径并输入工程名以新建一个工程。再点击右上角的 image:example-projects-icon_create.png[icon_create]，选择“实例分割”模块。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/example-projects.adoc:13
+#, no-wrap
+msgid "example-projects-instance_segmentation.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/example-projects.adoc:17
+#, no-wrap
+msgid "*导入积木图像数据集*：解压缩下载的数据集压缩包，点击左上方的 btn:[导入] ，选择[文件夹] 导入下载好的图像数据集。积木图像数据集包含了四种不同形状、颜色的积木。\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/example-projects.adoc:24
+#, no-wrap
+msgid "*截取 ROI*：点击选项 image:example-projects-icon_roi.png[icon_roi] 从图像中框选盛放积木的料筐作为感兴趣区域，并点击左上方的 btn:[应用] 确认使用。截取 ROI 的目的是减少无关背景信息的干扰。\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/example-projects.adoc:32
+#, no-wrap
+msgid "*创建标签*：点击左侧标签栏的 image:example-projects-icon_create.png[icon_create]，根据物体名称或特征创建对应的标签。此处需要分割不同种类的积木，所以根据积木的不同形状来命名；用户也可以选择根据积木的不同颜色特征命名。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/example-projects.adoc:34
+#, no-wrap
+msgid "example-projects-create_labels.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/example-projects.adoc:38
+#, no-wrap
+msgid "*标注图像*：鼠标左键长按或右键单击图像左侧工具栏 image:example-projects-icon_tool.png[icon_tool]，选择适合的标注工具，标注出图像中所有需要分割积木的外轮廓，并确保标注的标签与积木的形状类别对应。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/example-projects.adoc:39
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/example-projects.adoc:40
+#, no-wrap
+msgid "example-projects-labeling.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/example-projects.adoc:43
+msgid "使用多边形工具进行标注，标注完成后，可以拖拽锚点对标注结果进行调整。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/example-projects.adoc:46
+#, no-wrap
+msgid "*划分训练集与验证集*：软件默认将数据集的 80% 划分为训练集，20% 为验证集，可以点击 image:example-projects-icon_slider.png[icon_slider] 拖动滑块调整图像占比。需要确保划分后的训练集和验证集中涵盖所有需要分割的种类，如果不满足这一条件，可以选中图像名单击右键进行调整。\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/example-projects.adoc:63
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/example-projects.adoc:58
+#, no-wrap
+msgid "*导出模型*：点击 btn:[导出模型] 选择存放路径即可导出模型到工程文件夹，用户可以根据需求部署模型。\n"
+msgstr ""
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/example-projects.adoc:3
+#, no-wrap
+msgid "使用目标检测模块"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/example-projects.adoc:8
+msgid ""
+"本章将为用户提供转子数据集（ link:++https://docs.mech-mind.net//download/"
+"Mech-DLK/ObjectDetection(Rotor).zip++[点击下载] ），带领用户使用“目标检测”模"
+"块训练模型，达到示例工程中检测所有转子的位置并输出数量的效果。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/example-projects.adoc:10
+#, no-wrap
+msgid "*新建工程并添加“目标检测”模块*：点击初始页面上的 btn:[新建工程] ，选择工程路径并输入工程名以新建一个工程。再点击右上角的 image:example-projects-icon_create.png[icon_create]，选择“目标检测”模块。\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/example-projects.adoc:15
+#, no-wrap
+msgid "*导入转子图像数据集*：解压缩下载的数据集压缩包，点击左上方的 btn:[导入] ，选择 btn:[文件夹] 导入下载好的图像数据集。\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/example-projects.adoc:21
+#, no-wrap
+msgid "*截取ROI*：点击选项 image:example-projects-icon_roi.png[icon_roi]从图像中框选盛放转子的料筐作为感兴趣区域，并点击左上方的 btn:[应用] 确认使用。截取 ROI 的目的是减少无关背景信息的干扰。\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/example-projects.adoc:28
+#, no-wrap
+msgid ""
+"*划分训练集与验证集*：软件默认将数据集的 80% 划分为训练集，20% 为验证集，可以点击 \n"
+"image:example-projects-icon_slider.png[icon_slider]拖动滑块调整图像占比。需要确保划分后的训练集和验证集中涵盖所有需要检测的物体种类，如果不满足这一条件，可以选中图像名单击右键进行调整。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/example-projects.adoc:29
+#, no-wrap
+msgid "example-projects-divide_dataset.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/example-projects.adoc:33
+#, no-wrap
+msgid "*创建标签*：根据物体名称或特征创建对应的标签，此数据集以转子英文名称创建标签。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/example-projects.adoc:34
+#, no-wrap
+msgid "example-projects-create_label.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/example-projects.adoc:38
+#, no-wrap
+msgid "*标注图像*：以矩形框标注出图像中所有转子。标注时尽量矩形框刚好包住转子边缘，避免过多标注转子边缘以外的区域，标注不准确会影响模型训练效果。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/example-projects.adoc:46
+#, no-wrap
+msgid "example-projects-training.png"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/example-projects.adoc:54
+#, no-wrap
+msgid "example-projects-validation.png"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/example-projects.adoc:60
+#, no-wrap
+msgid "example-projects-export_model.png"
+msgstr ""

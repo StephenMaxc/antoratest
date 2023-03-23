@@ -1,0 +1,227 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr "Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Block title
+#: mechdlkrepository/zh_CN/modules/advanced-guide/nav.adoc:1
+#, no-wrap
+msgid "高级功能"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/nav.adoc:3
+msgid "xref:operation-model.adoc[如何进行批量数据集测试]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/nav.adoc:4
+msgid "xref:smart-labeling-tool.adoc[如何提升标注质量和效率]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/nav.adoc:5
+msgid "xref:filter-images.adoc[如何标记和筛选图像]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/nav.adoc:6
+msgid "xref:developer-model.adoc[如何解决困难问题]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/nav.adoc:6
+msgid "xref:keyboard-shortcut.adoc[快捷键]"
+msgstr ""
+
+#. type: Block title
+#: mechdlkrepository/zh_CN/modules/appendix/nav.adoc:1
+#, no-wrap
+msgid "附录"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/nav.adoc:3
+msgid "xref:software-prerequisites.adoc[软件使用前提]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/nav.adoc:4
+msgid "xref:trial-license.adoc[获取试用许可]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/nav.adoc:5
+msgid "xref:update-license.adoc[更新软件许可]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/nav.adoc:6
+msgid "xref:compatibility-statement.adoc[兼容性说明]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/nav.adoc:7
+msgid "xref:terminology.adoc[术语表]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/nav.adoc:7
+msgid "xref:faq.adoc[FAQ]"
+msgstr ""
+
+#. type: Block title
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:5
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/nav.adoc:1
+#, no-wrap
+msgid "实例分割"
+msgstr "Instance Segmentation"
+
+#. type: Block title
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:99
+#: mechdlkrepository/zh_CN/modules/classification/nav.adoc:1
+#, no-wrap
+msgid "图像分类"
+msgstr "Image Classification"
+
+#. type: Block title
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:195
+#: mechdlkrepository/zh_CN/modules/object-detection/nav.adoc:1
+#, no-wrap
+msgid "目标检测"
+msgstr "Object Detection"
+
+#. type: Block title
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:369
+#: mechdlkrepository/zh_CN/modules/fast-positioning/nav.adoc:1
+#, no-wrap
+msgid "快速定位"
+msgstr "Fast Positioning"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/nav.adoc:3
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/nav.adoc:3
+#: mechdlkrepository/zh_CN/modules/fast-positioning/nav.adoc:3
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/nav.adoc:3
+#: mechdlkrepository/zh_CN/modules/object-detection/nav.adoc:3
+msgid "xref:introduction.adoc[]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/nav.adoc:4
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/nav.adoc:4
+#: mechdlkrepository/zh_CN/modules/fast-positioning/nav.adoc:3
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/nav.adoc:4
+#: mechdlkrepository/zh_CN/modules/object-detection/nav.adoc:4
+msgid "xref:example-projects.adoc[]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/nav.adoc:5
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/nav.adoc:5
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/nav.adoc:5
+#: mechdlkrepository/zh_CN/modules/object-detection/nav.adoc:5
+msgid "xref:improve-model-accuracy.adoc[]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/nav.adoc:5
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/nav.adoc:5
+#: mechdlkrepository/zh_CN/modules/object-detection/nav.adoc:5
+msgid "xref:cpu-model-validation-and-exportation.adoc[]"
+msgstr ""
+
+#. type: Block title
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/nav.adoc:1
+#, no-wrap
+msgid "缺陷分割"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/nav.adoc:5
+msgid "xref:solve-difficult-problems.adoc[]"
+msgstr ""
+
+#. type: Block title
+#: mechdlkrepository/zh_CN/modules/ROOT/nav.adoc:1
+#, no-wrap
+msgid "快速了解 Mech-DLK"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/nav.adoc:4
+msgid "xref:mech-dlk.adoc[关于 Mech-DLK]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/nav.adoc:5
+msgid "xref:release-note.adoc[软件更新说明]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/nav.adoc:6
+msgid "xref:installation.adoc[安装说明]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/ROOT/nav.adoc:6
+msgid "xref:getting-started.adoc[开始训练第一个模型]"
+msgstr ""
+
+#. type: Block title
+#: mechdlkrepository/zh_CN/modules/sdk/nav.adoc:1
+#, no-wrap
+msgid "SDK"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/nav.adoc:3
+msgid "xref:sdk-introduction.adoc[]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/nav.adoc:4
+msgid "xref:sdk-getting-start.adoc[]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/nav.adoc:5
+msgid "xref:requirements.adoc[]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/nav.adoc:6
+msgid "xref:example-project.adoc[]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/nav.adoc:7
+msgid "xref:new-project.adoc[]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/nav.adoc:8
+msgid "xref:sdk-api.adoc[]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/nav.adoc:9
+msgid "xref:csharp.adoc[C# API]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/nav.adoc:9
+msgid "xref:c.adoc[C API]"
+msgstr ""

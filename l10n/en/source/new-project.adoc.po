@@ -1,0 +1,123 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/sdk/pages/new-project.adoc:3
+#, no-wrap
+msgid "创建一个新工程"
+msgstr "创建一个新工程"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/new-project.adoc:8
+msgid ""
+"确保系统环境满足二次开发要求后，即可参考以下步骤使用 SDK 创建新工程, 此处以 ."
+"NET (Visual Studio 2019)为例："
+msgstr ""
+"确保系统环境满足二次开发要求后，即可参考以下步骤使用 SDK 创建新工程, 此处以 ."
+"NET (Visual Studio 2019)为例："
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/new-project.adoc:10
+#, no-wrap
+msgid "*创建新项目*：打开 Visual Studio 2019 ，初次新建工程的用户点击从点击左上角menu:文件[新建项目] ，在创建新项目页面点击 Windows 桌面向导创建一个 Windows 应用。\n"
+msgstr "*创建新项目*：打开 Visual Studio 2019 ，初次新建工程的用户点击从点击左上角menu:文件[新建项目] ，在创建新项目页面点击 Windows 桌面向导创建一个 Windows 应用。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/sdk/pages/new-project.adoc:11
+#, no-wrap
+msgid "new-project-add_project.png"
+msgstr "new-project-add_project.png"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/sdk/pages/new-project.adoc:13
+#, no-wrap
+msgid "new-project-configure_new_project.png"
+msgstr "new-project-configure_new_project.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/new-project.adoc:16
+#, no-wrap
+msgid "*配置新项目*：选择 .NET 框架 .NET Framework 4.6.1(支持 >= 4.6.1)\n"
+msgstr "*配置新项目*：选择 .NET 框架 .NET Framework 4.6.1(支持 >= 4.6.1)\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/sdk/pages/new-project.adoc:17
+#, no-wrap
+msgid "new-project-configuration_properties.png"
+msgstr "new-project-configuration_properties.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/new-project.adoc:20
+#, no-wrap
+msgid "*配置工程属性*：在右侧工程栏中右击新工程名称依次选择 menu:属性[生成] 目标平台选择 x64 模式 ，也可以通过配置管理器来新增 x64 活动解决方案平台。\n"
+msgstr "*配置工程属性*：在右侧工程栏中右击新工程名称依次选择 menu:属性[生成] 目标平台选择 x64 模式 ，也可以通过配置管理器来新增 x64 活动解决方案平台。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/sdk/pages/new-project.adoc:21
+#, no-wrap
+msgid "new-project-configuration.png"
+msgstr "new-project-configuration.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/new-project.adoc:24
+#, no-wrap
+msgid "*添加引用*：点击右键工程栏中的btn:[引用] 项选择 添加引用，在弹窗中点击 浏览 勾选 run time 文件夹下的 mmind_dl_sdk_csharp.dll 文件后点击btn:[确定] 。 如果窗口中已经有该文件，则直接勾选。\n"
+msgstr "*添加引用*：点击右键工程栏中的btn:[引用] 项选择 添加引用，在弹窗中点击 浏览 勾选 run time 文件夹下的 mmind_dl_sdk_csharp.dll 文件后点击btn:[确定] 。 如果窗口中已经有该文件，则直接勾选。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/sdk/pages/new-project.adoc:25
+#, no-wrap
+msgid "new-project-copy.png"
+msgstr "new-project-copy.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/new-project.adoc:28
+#, no-wrap
+msgid "*生成解决方案*：点击上方导航栏 menu:生成[生成解决方案(B)]  ，生成可执行文件。\n"
+msgstr "*生成解决方案*：点击上方导航栏 menu:生成[生成解决方案(B)]  ，生成可执行文件。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/sdk/pages/new-project.adoc:29
+#, no-wrap
+msgid "new-project-build_solution.png"
+msgstr "new-project-build_solution.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/new-project.adoc:32
+msgid ""
+"将SDK文件夹下的 run_time 中所有 DLL 文件拷贝到 exe 目录当中，可在下图中红框位"
+"置找到exe 目录路径。"
+msgstr ""
+"将SDK文件夹下的 run_time 中所有 DLL 文件拷贝到 exe 目录当中，可在下图中红框位"
+"置找到exe 目录路径。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/sdk/pages/new-project.adoc:33
+#, no-wrap
+msgid "new-project-exe_path.png"
+msgstr "new-project-exe_path.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/new-project.adoc:37
+#, no-wrap
+msgid ""
+"*开始定制化开发*\n"
+"用户可参考示例工程的代码或者 xref:sdk-api#sdk-api[API 参考手册] 完成后续的定制化开发。\n"
+msgstr ""
+"*开始定制化开发*\n"
+"用户可参考示例工程的代码或者 xref:sdk-api#sdk-api[API 参考手册] 完成后续的定制化开发。\n"

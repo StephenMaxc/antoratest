@@ -1,0 +1,197 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/developer-model.adoc:144
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/installation.adoc:17
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:22
+#, no-wrap
+msgid "CPU"
+msgstr "CPU"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/installation.adoc:14
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:21
+#, no-wrap
+msgid "操作系统"
+msgstr "操作系统"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/installation.adoc:18
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:23
+#, no-wrap
+msgid "Intel® Core™ i5 及以上"
+msgstr "Intel® Core™ i5 及以上"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/installation.adoc:21
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:23
+#, no-wrap
+msgid "内存"
+msgstr "内存"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/installation.adoc:25
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:24
+#, no-wrap
+msgid "显卡"
+msgstr "显卡"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/installation.adoc:26
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:25
+#, no-wrap
+msgid "GeForce GTX 1650 (4GB) 及以上"
+msgstr "GeForce GTX 1650 (4GB) 及以上"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/ROOT/pages/installation.adoc:29
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:25
+#, no-wrap
+msgid "显卡驱动"
+msgstr "显卡驱动"
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:1
+#, no-wrap
+msgid "关于 Mech-DLK SDK"
+msgstr "关于 Mech-DLK SDK"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:5
+#, no-wrap
+msgid "什么是 SDK"
+msgstr "什么是 SDK"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:8
+msgid ""
+"SDK 作为 Mech-DLK 软件的开发套件，支持 C、C# 等多语言接口，并提供 DLL 库、样"
+"例等满足用户模型部署和二次开发的需求。"
+msgstr ""
+"SDK 作为 Mech-DLK 软件的开发套件，支持 C、C# 等多语言接口，并提供 DLL 库、样"
+"例等满足用户模型部署和二次开发的需求。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:9
+#, no-wrap
+msgid "sdk-introduction-flow.png"
+msgstr "sdk-introduction-flow.png"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:12
+#, no-wrap
+msgid "系统要求与授权"
+msgstr "系统要求与授权"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:16
+msgid "确保加密狗已授权；"
+msgstr "确保加密狗已授权；"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:18
+msgid "确保计算机系统及软硬件满足 SDK 部署要求："
+msgstr "确保计算机系统及软硬件满足 SDK 部署要求："
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:22
+#, no-wrap
+msgid "Windows 10（推荐）/ Windows 11"
+msgstr "Windows 10（推荐）/ Windows 11"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:24
+#, no-wrap
+msgid "8GB 及以上"
+msgstr "8GB 及以上"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:26
+#, no-wrap
+msgid "驱动版本 471.68 及以上"
+msgstr "驱动版本 471.68 及以上"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:26
+#, no-wrap
+msgid ".NET环境"
+msgstr ".NET环境"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:27
+#, no-wrap
+msgid ".net版本 >= 4.61"
+msgstr ".net版本 >= 4.61"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:27
+#, no-wrap
+msgid "C/C++"
+msgstr "C/C++"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:28
+#, no-wrap
+msgid "编译器支持 C99 及以上"
+msgstr "编译器支持 C99 及以上"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:32
+msgid ""
+"计算机系统和软硬件的配置对 SDK 部署后的性能影响较大，因此需确保满足以上要求。"
+msgstr ""
+"计算机系统和软硬件的配置对 SDK 部署后的性能影响较大，因此需确保满足以上要求。"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:33
+#, no-wrap
+msgid "SDK 位置及结构说明"
+msgstr "SDK 位置及结构说明"
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:35
+#, no-wrap
+msgid "SDK 位置"
+msgstr "SDK 位置"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:37
+#, no-wrap
+msgid "sdk-introduction-sdk_path.png"
+msgstr "sdk-introduction-sdk_path.png"
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:39
+#, no-wrap
+msgid "SDK 结构"
+msgstr "SDK 结构"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-introduction.adoc:45
+#, no-wrap
+msgid ""
+"*include +*: C API 的头文件，用于 C 工程。 +\n"
+"*lib +*: C API 的静态库, 用于 C 工程。 +\n"
+"*run_time +*:  动态运行时库，用于C/C#工程。 +\n"
+"*sample +*:  SDK 示例工程，目前有 C# 示例。 +\n"
+msgstr ""
+"*include +*: C API 的头文件，用于 C 工程。 +\n"
+"*lib +*: C API 的静态库, 用于 C 工程。 +\n"
+"*run_time +*:  动态运行时库，用于C/C#工程。 +\n"
+"*sample +*:  SDK 示例工程，目前有 C# 示例。 +\n"

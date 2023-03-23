@@ -1,0 +1,875 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr "Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:15
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:31
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:48
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:15
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:43
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:58
+msgid "输入参数："
+msgstr "Input parameters:"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:19
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:34
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:63
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:45
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:61
+msgid "返回值："
+msgstr "Returned value:"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:72
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:66
+#, no-wrap
+msgid "*接口函数调用返回值*"
+msgstr "*Returned Values of Interface Function Call*"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:78
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:72
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:261
+#, no-wrap
+msgid "返回状态码"
+msgstr "Status code returned"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:80
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:74
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:263
+#, no-wrap
+msgid "枚举值"
+msgstr "Enumeration value"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:82
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:76
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:265
+#, no-wrap
+msgid "说明"
+msgstr "Note"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:85
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:79
+#, no-wrap
+msgid "STATUS_OK"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:87
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:81
+#, no-wrap
+msgid "1000"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:89
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:83
+#, no-wrap
+msgid "接口调用未出现异常"
+msgstr "No interface call exception."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:92
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:86
+#, no-wrap
+msgid "FILE_NOT_FOUND"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:94
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:88
+#, no-wrap
+msgid "1001"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:96
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:90
+#, no-wrap
+msgid "文件未找到"
+msgstr "File not found."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:99
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:93
+#, no-wrap
+msgid "VALUE_OUTOF_LEFTRANGE"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:101
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:95
+#, no-wrap
+msgid "1002"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:103
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:97
+#, no-wrap
+msgid "参数值超出左限位。如参数值范围为[0.0, 1.0],当参数值小于0.0时产生"
+msgstr "The parameter value exceeds the left limit. Example: If the parameter value range is [0.0, 1.0], it will be generated when the parameter value is less than 0.0."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:106
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:100
+#, no-wrap
+msgid "VALUE_OUTOF_RIGHTRANGE"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:108
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:102
+#, no-wrap
+msgid "1003"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:110
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:104
+#, no-wrap
+msgid "参数值超出右限位。如参数值范围为[0.0, 1.0],当参数值大于1.0时产生"
+msgstr "The parameter value exceeds the right limit. Example: If the parameter value range is [0.0, 1.0], it will be generated when the parameter value is greater than 1.0."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:113
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:107
+#, no-wrap
+msgid "MODELTYPE_ERROR"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:115
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:109
+#, no-wrap
+msgid "1004"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:117
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:111
+#, no-wrap
+msgid "模型类型异常"
+msgstr "Model type error."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:120
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:114
+#, no-wrap
+msgid "MODEL_REGISTEXCEEDLIMIT_ERROR"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:122
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:116
+#, no-wrap
+msgid "1005"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:124
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:118
+#, no-wrap
+msgid "注册模型的个数超过限制错误"
+msgstr "Number of registered models beyond the limit."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:127
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:121
+#, no-wrap
+msgid "MODEL_CREATE_ERROR"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:129
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:123
+#, no-wrap
+msgid "1006"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:131
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:125
+#, no-wrap
+msgid "模型创建时产生异常"
+msgstr "Model creation error."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:134
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:128
+#, no-wrap
+msgid "MODEL_DESTROY_ERROR"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:136
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:130
+#, no-wrap
+msgid "1007"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:138
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:132
+#, no-wrap
+msgid "模型注销时产生异常"
+msgstr "Model unregistration error."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:141
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:135
+#, no-wrap
+msgid "MODEL_LOAD_ERROR"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:143
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:137
+#, no-wrap
+msgid "1008"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:145
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:139
+#, no-wrap
+msgid "模型加载时产生异常"
+msgstr "Model loading error."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:148
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:142
+#, no-wrap
+msgid "MODEL_INIT_ERROR"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:150
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:144
+#, no-wrap
+msgid "1009"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:152
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:146
+#, no-wrap
+msgid "模型初始化时产生异常"
+msgstr "Model initialization error."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:155
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:149
+#, no-wrap
+msgid "MODEL_INFER_ERROR"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:157
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:151
+#, no-wrap
+msgid "1010"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:159
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:153
+#, no-wrap
+msgid "模型推理时产生异常"
+msgstr "Model inference error."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:162
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:156
+#, no-wrap
+msgid "GET_RESULT_ERROR"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:164
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:158
+#, no-wrap
+msgid "1011"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:166
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:160
+#, no-wrap
+msgid "获取模型结果时产生异常"
+msgstr "Error getting model result ."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:169
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:163
+#, no-wrap
+msgid "IMGPATH_ERROR"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:171
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:165
+#, no-wrap
+msgid "1012"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:173
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:167
+#, no-wrap
+msgid "错误的图像路径"
+msgstr "Invalid image file path."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:176
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:170
+#, no-wrap
+msgid "IMGNULL_ERROR"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:178
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:172
+#, no-wrap
+msgid "1013"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:180
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:174
+#, no-wrap
+msgid "图像为空"
+msgstr "Empty image."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:183
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:177
+#, no-wrap
+msgid "IMGCHANNEL_ERROR"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:185
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:179
+#, no-wrap
+msgid "1014"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:187
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:181
+#, no-wrap
+msgid "图像的通道数错误"
+msgstr "Image channel error."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:190
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:184
+#, no-wrap
+msgid "IMGDEPTH_ERROR"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:192
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:186
+#, no-wrap
+msgid "1015"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:194
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:188
+#, no-wrap
+msgid "图像的位深度错误"
+msgstr "Image bit depth error."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:197
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:191
+#, no-wrap
+msgid "IMGSIZE_ERROR"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:199
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:193
+#, no-wrap
+msgid "1016"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:201
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:195
+#, no-wrap
+msgid "图像的尺寸错误"
+msgstr "Image size error."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:204
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:198
+#, no-wrap
+msgid "INCONSISTENT_IMAGEDEPTH_ERROR"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:206
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:200
+#, no-wrap
+msgid "1017"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:208
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:202
+#, no-wrap
+msgid "两个图像的位深度不一致"
+msgstr "Inconsistent bit depths of two images."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:211
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:205
+#, no-wrap
+msgid "INCONSISTENT_IMAGESIZE_ERROR"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:213
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:207
+#, no-wrap
+msgid "1018"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:215
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:209
+#, no-wrap
+msgid "两个图像的尺寸不一致"
+msgstr "Inconsistent sizes of two images."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:218
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:212
+#, no-wrap
+msgid "INCONSISTENT_IMAGETYPE_ERROR"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:220
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:214
+#, no-wrap
+msgid "1019"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:222
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:216
+#, no-wrap
+msgid "两个图像的类型不一致"
+msgstr "Inconsistent types of two images."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:225
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:219
+#, no-wrap
+msgid "IMGROI_ERROR"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:227
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:221
+#, no-wrap
+msgid "1020"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:229
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:223
+#, no-wrap
+msgid "错误的图像ROI参数"
+msgstr "Incorrect image ROI parameters."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:232
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:226
+#, no-wrap
+msgid "IMGROI_NULL_ERROR"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:234
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:228
+#, no-wrap
+msgid "1021"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:236
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:230
+#, no-wrap
+msgid "图像的ROI参数为空"
+msgstr "Empty image ROI parameters."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:239
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:233
+#, no-wrap
+msgid "IMG_CONVERTTYPE_ERROR"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:241
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:235
+#, no-wrap
+msgid "1022"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:243
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:237
+#, no-wrap
+msgid "图像色彩空间变换的转换参数错误"
+msgstr "Incorrect conversion parameters for image color space transformation."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:246
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:240
+#, no-wrap
+msgid "CONFIG_PARAM_ERROR"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:248
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:242
+#, no-wrap
+msgid "1023"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:250
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:244
+#, no-wrap
+msgid "配置参数错误"
+msgstr "Configuration parameter error."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:260
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:247
+#, no-wrap
+msgid "UNKNOWN_ERROR"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/c.adoc:264
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:251
+#, no-wrap
+msgid "未知错误"
+msgstr "Unknown error."
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:1
+#, no-wrap
+msgid "C# API"
+msgstr ""
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:3
+#, no-wrap
+msgid "*接口函数*"
+msgstr "*Interface Functions*"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:6
+msgid "setVisible"
+msgstr ""
+
+#. type: delimited block -
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:10
+#, no-wrap
+msgid "void setVisible(Boolean flag);\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:13
+msgid ""
+"说明：设置结果可视化。若配置为 true ，SDK 会自动将预测的结果与输入数据进行融"
+"合，结果在 xref:inferpackresult[接口函数推理返回结果] 中，若性能要求较高请勿"
+"勾选。"
+msgstr "Description: Set up the result visualization. If this function sets visualization to true, the SDK will automatically fuse the predicted result with the input data, and the result will be in xref:inferpackresult[Returned Results of Interface Function Inference]. If you have high requirements on performance, please do not set it to true."
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:16
+msgid "flag：可视化布尔量，默认为 false。"
+msgstr "flag: The boolean flag for visualization. The value defaults to false."
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:18
+msgid "返回值: 空"
+msgstr "Returned value: None"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:19
+msgid "setConvertInseg"
+msgstr ""
+
+#. type: delimited block -
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:23
+#, no-wrap
+msgid "void setConvertInseg(Boolean Convertflag);\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:26
+msgid ""
+"设置对实例分割结果进行处理。若配置为 true, 实例分割类型的推理结果将会有内外接"
+"矩形信息，结果在 xref:inferpackresult[接口函数推理返回结果] 中，若性能要求较"
+"高请勿勾选。"
+msgstr "Description: Set the processing of instance segmentation results. If true is input, the inference result of instance segmentation models will have information of the inscribed rectangles and the circumscribed rectangles, and the result will be in xref:inferpackresult[Returned Results of Interface Function Inference]. If you have high requirements on performance, please do not set it to true."
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:28
+msgid "输入参数:"
+msgstr "Input parameter:"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:29
+msgid "Convertflag：实例分割掩膜绘制内外接矩形布尔值，默认为 false。"
+msgstr "Convertflag: The Boolean flag for drawing the inscribed and circumscribed rectangles of the instance masks. The value defaults to false."
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:31
+msgid "返回值：空"
+msgstr "Returned value: None"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:33
+msgid "LoadModel"
+msgstr ""
+
+#. type: delimited block -
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:38
+#, no-wrap
+msgid "SDKStatus LoadModel(string packPath);\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:41
+msgid ""
+"说明：加载 Mech-DLK 导出的模型，该接口为同步接口，会阻塞，建议使用线程调用。"
+msgstr "Descriotion: Load the model exported by {product-dlk}. This interface is a synchronous interface and may be blocked. It is recommended to use thread calls."
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:44
+msgid "packPath: dlkpack文件路径。"
+msgstr "packPath: dlkpack file path."
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:46
+msgid ""
+"SDKStatus：1000为正常，其他值为异常，详情见 xref:sdkstatus[接口函数调用返回"
+"值] 。"
+msgstr "SDKStatus: 1000 means normal, other values mean errors. Please see xref:sdkstatus[Returned Values of Interface Function Call] for details."
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:49
+msgid "Predict"
+msgstr ""
+
+#. type: delimited block -
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:53
+#, no-wrap
+msgid "InferPackResult Predict(Bitmap img);\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:56
+msgid "说明：执行推理。"
+msgstr "Description: Perform inference."
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:59
+msgid "img：bitmap 类型的图像。"
+msgstr "img: bitmap image."
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:62
+msgid ""
+"InferPackResult：推理结果。详情见  xref:inferpackresult[接口函数推理返回结"
+"果] 。"
+msgstr "InferPackResult: Inference result. See xref:inferpackresult[Returned Results of Interface Function Inference] for details."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:249
+#, no-wrap
+msgid "1024"
+msgstr ""
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:255
+#, no-wrap
+msgid "*接口函数推理返回结果*"
+msgstr "*Returned Results of Interface Function Inference*"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:268
+#, no-wrap
+msgid "status"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:270
+#, no-wrap
+msgid "SDKStatus"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:272
+#, no-wrap
+msgid "1000为正常，其他值为异常，详情见 接口函数调用返回值"
+msgstr "1000 means normal, other values mean errors. Please see Returned Values of Interface Function Call for details."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:275
+#, no-wrap
+msgid "type"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:277
+#, no-wrap
+msgid "Type"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:279
+#, no-wrap
+msgid "模型类型，0为未知模型，1为缺陷分割，2为实例分割，3为目标检测，4为图像分类"
+msgstr "Model type. 0: unknown model; 1: defect segmentation; 2: instance segmentation; 3: object detection; 4: image classification."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:282
+#, no-wrap
+msgid "imageShow"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:284
+#, no-wrap
+msgid "Bitmap"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:286
+#, no-wrap
+msgid "可视化图像"
+msgstr "Visualization image."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:289
+#, no-wrap
+msgid "masks"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:291
+#, no-wrap
+msgid "Bitmap[ ]"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:293
+#, no-wrap
+msgid "掩膜结果"
+msgstr "Result masks."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:296
+#, no-wrap
+msgid "labels"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:298
+#, no-wrap
+msgid "int[ ]"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:300
+#, no-wrap
+msgid "推理的标签结果"
+msgstr "Inference result labels."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:303
+#, no-wrap
+msgid "bboxes"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:305
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:312
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:319
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:326
+#, no-wrap
+msgid "float[ ]"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:307
+#, no-wrap
+msgid "包围框坐标序列，4个一组（左上X、左上Y、右下X、右下Y）"
+msgstr "Bounding box coordinates. Every 4 values (upper left X, upper left Y, lower right X, lower right Y) are for one box."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:310
+#, no-wrap
+msgid "externalRect"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:314
+#, no-wrap
+msgid "实例分割最小外接矩形坐标序列，4个一组（左上X、左上Y、右下X、右下Y）"
+msgstr "Instance min circumscribed rectangle coordinates. Every 4 values (upper left X, upper left Y, lower right X, lower right Y) are for one rectangle."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:317
+#, no-wrap
+msgid "internalRect"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:321
+#, no-wrap
+msgid "实例分割最大内接矩形坐标序列，4个一组（左上X、左上Y、右下X、右下Y）"
+msgstr "Instance max inscribed rectangle coordinates. Every 4 values (upper left X, upper left Y, lower right X, lower right Y) are for one rectangle."
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:324
+#, no-wrap
+msgid "confidence"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/sdk/pages/csharp.adoc:328
+#, no-wrap
+msgid "置信度结果"
+msgstr "Result confidences."

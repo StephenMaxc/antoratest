@@ -1,0 +1,373 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:3
+#, no-wrap
+msgid "软件使用前提"
+msgstr "软件使用前提"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:8
+msgid ""
+"{company}视觉系列软件是{company}自主研发的 {product-dlk}、 {product-vis}、 "
+"{product-viz} 和 {product-center} 软件等的统称（以下简称“软件”）。"
+msgstr ""
+"{company}视觉系列软件是{company}自主研发的 {product-dlk}、 {product-vis}、 "
+"{product-viz} 和 {product-center} 软件等的统称（以下简称“软件”）。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:10
+msgid "为了确保可以正常使用软件，需要按照下列内容进行操作："
+msgstr "为了确保可以正常使用软件，需要按照下列内容进行操作："
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:11
+#, no-wrap
+msgid "检查接口和驱动程序"
+msgstr "检查接口和驱动程序"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:14
+msgid "用户需要在 Windows 操作系统的 *控制面板* 中检查以下内容："
+msgstr "用户需要在 Windows 操作系统的 *控制面板* 中检查以下内容："
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:16
+#, no-wrap
+msgid "*网络和 Internet*：确保用于连接其他设备的网络接口工作正常。\n"
+msgstr "*网络和 Internet*：确保用于连接其他设备的网络接口工作正常。\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:17
+#, no-wrap
+msgid "*设备管理器*：点击 *网络适配器* 和 *显示适配器* ，确保安装了网络接口和 GPU 所需的驱动程序。\n"
+msgstr "*设备管理器*：点击 *网络适配器* 和 *显示适配器* ，确保安装了网络接口和 GPU 所需的驱动程序。\n"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:18
+#, no-wrap
+msgid "设置软件许可"
+msgstr "设置软件许可"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:22
+msgid ""
+"{company}使用 Wibu-Systems 的 CodeMeter 作为软件的许可系统。 从 1.6.0 版本开"
+"始，CodeMeter 安装程序包含在软件的安装包中。"
+msgstr ""
+"{company}使用 Wibu-Systems 的 CodeMeter 作为软件的许可系统。 从 1.6.0 版本开"
+"始，CodeMeter 安装程序包含在软件的安装包中。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:24
+msgid "将 “加密狗” 插到工控机上。"
+msgstr "将 “加密狗” 插到工控机上。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:25
+msgid "运行软件安装程序安装 CodeMeter。"
+msgstr "运行软件安装程序安装 CodeMeter。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:26
+msgid ""
+"确认 CodeMeter 正在运行，即 CodeMeter 的图标 image:codemeter_icon."
+"png[codemeter_icon] 显示在系统托盘中。"
+msgstr ""
+"确认 CodeMeter 正在运行，即 CodeMeter 的图标 image:codemeter_icon."
+"png[codemeter_icon] 显示在系统托盘中。"
+
+#. type: delimited block =
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:30
+msgid ""
+"若用户需要获取试用许可（不需要加密狗），请参见 xref:trial-license."
+"adoc#codemeter-trial-license[获取试用许可] 。"
+msgstr ""
+"若用户需要获取试用许可（不需要加密狗），请参见 xref:trial-license."
+"adoc#codemeter-trial-license[获取试用许可] 。"
+
+#. type: delimited block =
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:31
+msgid ""
+"若用户需要更新已有许可，请参见 xref:update-license.adoc#codemeter-update-"
+"license[更新软件许可] 。"
+msgstr ""
+"若用户需要更新已有许可，请参见 xref:update-license.adoc#codemeter-update-"
+"license[更新软件许可] 。"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:33
+#, no-wrap
+msgid "关闭 Windows Defender 防火墙"
+msgstr "关闭 Windows Defender 防火墙"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:36
+msgid ""
+"Windows Defender 防火墙可能会影响软件与外部设备通过网络接口进行通信，用户需要"
+"关闭 Windows Defender 防火墙对这些网络接口的防护，具体操作如下："
+msgstr ""
+"Windows Defender 防火墙可能会影响软件与外部设备通过网络接口进行通信，用户需要"
+"关闭 Windows Defender 防火墙对这些网络接口的防护，具体操作如下："
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:38
+msgid ""
+"打开控制面板中点击 menu:系统和安全[Windows Defender 防火墙 > 高级设置]。"
+msgstr ""
+"打开控制面板中点击 menu:系统和安全[Windows Defender 防火墙 > 高级设置]。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:39
+#, no-wrap
+msgid "firewall_1.png"
+msgstr "firewall_1.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:42
+msgid "点击弹窗中的 *Windows Defender 防火墙属性* 。"
+msgstr "点击弹窗中的 *Windows Defender 防火墙属性* 。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:43
+#, no-wrap
+msgid "firewall_2.png"
+msgstr "firewall_2.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:46
+msgid "选中 *域配置文件* 选项卡，点击 *受保护的网络连接* 右侧的btn:[自定义] 。"
+msgstr ""
+"选中 *域配置文件* 选项卡，点击 *受保护的网络连接* 右侧的btn:[自定义] 。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:47
+#, no-wrap
+msgid "firewall_3.png"
+msgstr "firewall_3.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:50
+msgid "取消勾选弹出的窗口中所有与软件通信的设备的网络接口，点击btn:[确定] 。"
+msgstr "取消勾选弹出的窗口中所有与软件通信的设备的网络接口，点击btn:[确定] 。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:51
+#, no-wrap
+msgid "firewall_4.png"
+msgstr "firewall_4.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:54
+#, no-wrap
+msgid "*专用文件配置* 和 *公用文件配置* 选项卡中重复步骤 3 与步骤 4 。\n"
+msgstr "*专用文件配置* 和 *公用文件配置* 选项卡中重复步骤 3 与步骤 4 。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:55
+#, no-wrap
+msgid "firewall_5.png"
+msgstr "firewall_5.png"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:57
+#, no-wrap
+msgid "阻止 Windows 更新"
+msgstr "阻止 Windows 更新"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:60
+msgid ""
+"Windows 系统更新时会强制工控机关机或重启，可能会影响现场正常生产，因此建议设"
+"置为阻止 Windows 更新来避免意外停机。"
+msgstr ""
+"Windows 系统更新时会强制工控机关机或重启，可能会影响现场正常生产，因此建议设"
+"置为阻止 Windows 更新来避免意外停机。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:62
+msgid ""
+"如果选择保持启用 Windows 更新，注意采取措施来确保工控机不在工作时间内关机或重"
+"启，例如：设置 Windows 更新的活跃时间。"
+msgstr ""
+"如果选择保持启用 Windows 更新，注意采取措施来确保工控机不在工作时间内关机或重"
+"启，例如：设置 Windows 更新的活跃时间。"
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:63
+#, no-wrap
+msgid "禁用 Windows 更新"
+msgstr "禁用 Windows 更新"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:66
+msgid "点击任务栏的放大镜，搜索 *服务* 。"
+msgstr "点击任务栏的放大镜，搜索 *服务* 。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:67
+msgid "点击 *服务* 双击弹窗中的 *Windows Update* 并打开。"
+msgstr "点击 *服务* 双击弹窗中的 *Windows Update* 并打开。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:68
+#, no-wrap
+msgid "update_1.png"
+msgstr "update_1.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:71
+msgid "选择btn:[停止] 后点击确认。"
+msgstr "选择btn:[停止] 后点击确认。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:72
+#, no-wrap
+msgid "update_2.png"
+msgstr "update_2.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:75
+#, no-wrap
+msgid "*启动类型* 的下拉列表框中选择 *禁用* ，并点击btn:[应用] 。\n"
+msgstr "*启动类型* 的下拉列表框中选择 *禁用* ，并点击btn:[应用] 。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:76
+#, no-wrap
+msgid "update_3.png"
+msgstr "update_3.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:79
+msgid ""
+"点击 *恢复* 选项卡，将所有失败时的反应选择为 *无操作* ，点击btn:[确定] 。"
+msgstr ""
+"点击 *恢复* 选项卡，将所有失败时的反应选择为 *无操作* ，点击btn:[确定] 。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:80
+#, no-wrap
+msgid "update_4.png"
+msgstr "update_4.png"
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:82
+#, no-wrap
+msgid "禁用 Windows 更新医生服务"
+msgstr "禁用 Windows 更新医生服务"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:85
+msgid ""
+"打开Windows 更新医生服务会使计算机持续接收更新。即使用户已经关闭 Windows 更"
+"新，Windows 更新医生服务依旧会重新启用 Windows 更新。用户只有关闭 Windows 更"
+"新医生服务才能确保彻底禁用 Windows 更新。"
+msgstr ""
+"打开Windows 更新医生服务会使计算机持续接收更新。即使用户已经关闭 Windows 更"
+"新，Windows 更新医生服务依旧会重新启用 Windows 更新。用户只有关闭 Windows 更"
+"新医生服务才能确保彻底禁用 Windows 更新。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:87
+msgid ""
+"Windows 更新医生服务无法通过简单的按钮点击来关闭，需要用户在注册表编辑器中完"
+"成以下操作。"
+msgstr ""
+"Windows 更新医生服务无法通过简单的按钮点击来关闭，需要用户在注册表编辑器中完"
+"成以下操作。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:89
+msgid "点击任务栏的放大镜，搜索并点击 *注册表编辑器* 。"
+msgstr "点击任务栏的放大镜，搜索并点击 *注册表编辑器* 。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:91
+msgid ""
+"左侧面板导航到 *HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services"
+"\\WaaSMedicSvc* 路径下，点击右侧面板中的 *Start* ，选择 *修改* 。"
+msgstr ""
+"左侧面板导航到 *HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services"
+"\\WaaSMedicSvc* 路径下，点击右侧面板中的 *Start* ，选择 *修改* 。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:92
+#, no-wrap
+msgid "update_5.png"
+msgstr "update_5.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:95
+msgid "将弹窗中的 *数值数据* 修改为 4 后，点击btn:[确定] 。"
+msgstr "将弹窗中的 *数值数据* 修改为 4 后，点击btn:[确定] 。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:96
+#, no-wrap
+msgid "update_6.png"
+msgstr "update_6.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:99
+msgid "右键点击 *FailureActions* ，在弹出的快捷菜单中点击 *修改* 。"
+msgstr "右键点击 *FailureActions* ，在弹出的快捷菜单中点击 *修改* 。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:100
+#, no-wrap
+msgid "update_7.png"
+msgstr "update_7.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:103
+msgid "将弹窗中框选的值修改为 *01* 后，点击btn:[确定] 。"
+msgstr "将弹窗中框选的值修改为 *01* 后，点击btn:[确定] 。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:104
+#, no-wrap
+msgid "update_8.png"
+msgstr "update_8.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:107
+msgid "返回 *服务* 找到 *Windows 更新医生服务* 双击并打开。"
+msgstr "返回 *服务* 找到 *Windows 更新医生服务* 双击并打开。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:108
+#, no-wrap
+msgid "update_9.png"
+msgstr "update_9.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:111
+msgid ""
+"确认修改成功：常规选项卡中的启动类型为禁用，恢复选项卡中所有失败时的反应为无"
+"操作。"
+msgstr ""
+"确认修改成功：常规选项卡中的启动类型为禁用，恢复选项卡中所有失败时的反应为无"
+"操作。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/appendix/pages/software-prerequisites.adoc:112
+#, no-wrap
+msgid "update_10.png"
+msgstr "update_10.png"

@@ -1,0 +1,44 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr "Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-getting-start.adoc:1
+#, no-wrap
+msgid "入门指南"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-getting-start.adoc:4
+msgid ""
+"本章用于引导初次使用 SDK 的用户熟悉相关操作流程，快速地创建并完成 Mech-DLK "
+"SDK 新工程。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-getting-start.adoc:6
+msgid "xref:requirements.adoc[准备工作]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-getting-start.adoc:7
+msgid "xref:example-project.adoc[运行 SDK C# 示例工程]"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/sdk-getting-start.adoc:8
+msgid "xref:new-project.adoc[创建一个新工程]"
+msgstr ""

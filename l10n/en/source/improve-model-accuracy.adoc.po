@@ -1,0 +1,1189 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:2
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:3
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:3
+#, no-wrap
+msgid "如何训练高质量模型"
+msgstr "如何训练高质量模型"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:7
+msgid "本章将介绍最影响模型质量的几个因素，以及如何训练出高质量图像分类模型。"
+msgstr "本章将介绍最影响模型质量的几个因素，以及如何训练出高质量图像分类模型。"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:9
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:12
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:11
+#, no-wrap
+msgid "确保图像质量"
+msgstr "确保图像质量"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:12
+msgid ""
+"避免 *过曝、过暗、颜色失真、模糊、遮挡* 等情况。这些情况会导致深度学习模型所"
+"依赖的特征丢失，影响模型训练效果。"
+msgstr ""
+"避免 *过曝、过暗、颜色失真、模糊、遮挡* 等情况。这些情况会导致深度学习模型所"
+"依赖的特征丢失，影响模型训练效果。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:13
+#, no-wrap
+msgid "improve_model_accuracy_overexposed.png"
+msgstr "improve_model_accuracy_overexposed.png"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:15
+#, no-wrap
+msgid "improve_model_accuracy_darker_lighting.png"
+msgstr "improve_model_accuracy_darker_lighting.png"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:17
+#, no-wrap
+msgid "improve_model_accuracy_color_distortion.png"
+msgstr "improve_model_accuracy_color_distortion.png"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:19
+#, no-wrap
+msgid "improve_model_accuracy_obscure.png"
+msgstr "improve_model_accuracy_obscure.png"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:21
+#, no-wrap
+msgid "improve_model_accuracy_occluded.png"
+msgstr "improve_model_accuracy_occluded.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:24
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:33
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:28
+msgid ""
+"确保采集数据的 *背景、视角、高度* 与实际应用一致。任何不一致都会降低深度学习"
+"在实际应用时的效果，严重情况下必须返工重新采集数据，请务必提前确认实际应用时"
+"的情况。"
+msgstr ""
+"确保采集数据的 *背景、视角、高度* 与实际应用一致。任何不一致都会降低深度学习"
+"在实际应用时的效果，严重情况下必须返工重新采集数据，请务必提前确认实际应用时"
+"的情况。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:25
+#, no-wrap
+msgid "improve_model_accuracy_background_inconsistent.png"
+msgstr "improve_model_accuracy_background_inconsistent.png"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:27
+#, no-wrap
+msgid "improve_model_accuracy_field_mismatch.png"
+msgstr "improve_model_accuracy_field_mismatch.png"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:29
+#, no-wrap
+msgid "improve_model_accuracy_height_mismatch.png"
+msgstr "improve_model_accuracy_height_mismatch.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:32
+msgid ""
+"图像分类对光照比较敏感，采集时光照条件需保持一致；如若现场早晚光线不一致，需"
+"针对情况分别采集。"
+msgstr ""
+"图像分类对光照比较敏感，采集时光照条件需保持一致；如若现场早晚光线不一致，需"
+"针对情况分别采集。"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:34
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:45
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:40
+#, no-wrap
+msgid "确保数据集质量"
+msgstr "确保数据集质量"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:37
+msgid ""
+"“图像分类”模块通过学习已有图像的特征得出模型并应用到实际场景，因此采集和选取"
+"的数据集必须与实际场景情况一致才能训练出高质量模型。"
+msgstr ""
+"“图像分类”模块通过学习已有图像的特征得出模型并应用到实际场景，因此采集和选取"
+"的数据集必须与实际场景情况一致才能训练出高质量模型。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:39
+msgid "xref:improve_model_accuracy_collect-classification-dataset[采集数据集]"
+msgstr "xref:improve_model_accuracy_collect-classification-dataset[采集数据集]"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:40
+msgid "xref:improve_model_accuracy_select-classification-dataset[选取数据集]"
+msgstr "xref:improve_model_accuracy_select-classification-dataset[选取数据集]"
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:41
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:53
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:46
+#, no-wrap
+msgid "采集数据集"
+msgstr "采集数据集"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:45
+msgid ""
+"需合理分配各种摆放情况。例如实际生产时来料有横向和竖向，但只采集横向来料的数"
+"据进行训练，则无法保证竖向来料的分类效果。 因此，采集数据时需要能 *包含实际生"
+"产的各种场景* ，具体包括："
+msgstr ""
+"需合理分配各种摆放情况。例如实际生产时来料有横向和竖向，但只采集横向来料的数"
+"据进行训练，则无法保证竖向来料的分类效果。 因此，采集数据时需要能 *包含实际生"
+"产的各种场景* ，具体包括："
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:47
+msgid "实际应用可能出现的待分类物体 *不同角度* 的特征。"
+msgstr "实际应用可能出现的待分类物体 *不同角度* 的特征。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:48
+msgid "实际应用可能出现的待分类物体 *不同位置* 的特征。"
+msgstr "实际应用可能出现的待分类物体 *不同位置* 的特征。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:50
+#, no-wrap
+msgid "*各个角度*\n"
+msgstr "*各个角度*\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:51
+#, no-wrap
+msgid "improve_model_accuracy_collection_method_1.png"
+msgstr "improve_model_accuracy_collection_method_1.png"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:53
+#, no-wrap
+msgid "improve_model_accuracy_collection_method_2.png"
+msgstr "improve_model_accuracy_collection_method_2.png"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:55
+#, no-wrap
+msgid "improve_model_accuracy_collection_method_3.png"
+msgstr "improve_model_accuracy_collection_method_3.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:58
+#, no-wrap
+msgid "*不同位置*\n"
+msgstr "*不同位置*\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:59
+#, no-wrap
+msgid "improve_model_accuracy_collection_method_4.png"
+msgstr "improve_model_accuracy_collection_method_4.png"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:61
+#, no-wrap
+msgid "improve_model_accuracy_collection_method_5.png"
+msgstr "improve_model_accuracy_collection_method_5.png"
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:63
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:77
+#, no-wrap
+msgid "采集数据案例"
+msgstr "采集数据案例"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:66
+msgid ""
+"某阀管项目，单类物体，需要区分阀管正反面，位置移动幅度较小，正反面各采集 15 "
+"张。"
+msgstr ""
+"某阀管项目，单类物体，需要区分阀管正反面，位置移动幅度较小，正反面各采集 15 "
+"张。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:67
+#, no-wrap
+msgid "improve_model_accuracy_project_case.png"
+msgstr "improve_model_accuracy_project_case.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:70
+msgid ""
+"某发动机气门装配项目，单类物体，需要区分工件是否正确摆放在卡槽内，由于摆放在"
+"卡槽外可能出现的姿态较多，需考虑不同位置和不同角度摆放的情况，采集 20 张左"
+"右；摆放在卡槽内的只需考虑不同位置的情况，采集 10 张左右。"
+msgstr ""
+"某发动机气门装配项目，单类物体，需要区分工件是否正确摆放在卡槽内，由于摆放在"
+"卡槽外可能出现的姿态较多，需考虑不同位置和不同角度摆放的情况，采集 20 张左"
+"右；摆放在卡槽内的只需考虑不同位置的情况，采集 10 张左右。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:71
+#, no-wrap
+msgid "improve_model_accuracy_project_case_2.png"
+msgstr "improve_model_accuracy_project_case_2.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:74
+msgid ""
+"某金属薄片项目，两类物体，需要区分工件大小，可能出现不同位置不同角度的情况，"
+"正反面各采集 20 张。"
+msgstr ""
+"某金属薄片项目，两类物体，需要区分工件大小，可能出现不同位置不同角度的情况，"
+"正反面各采集 20 张。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:75
+#, no-wrap
+msgid "improve_model_accuracy_project_case_3A.png"
+msgstr "improve_model_accuracy_project_case_3A.png"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:77
+#, no-wrap
+msgid "improve_model_accuracy_project_case_3B.png"
+msgstr "improve_model_accuracy_project_case_3B.png"
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:79
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:155
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:103
+#, no-wrap
+msgid "选取合适的数据集"
+msgstr "选取合适的数据集"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:82
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:108
+#, no-wrap
+msgid "*训练集数量可控*\n"
+msgstr "*训练集数量可控*\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:84
+msgid ""
+"对于“图像分类”模块初次建模，建议使用 30 张图像。数据量并不是越大越好，前期加"
+"入大量无效的数据集不利于后期的模型改进，同时还会延长训练时间。"
+msgstr ""
+"对于“图像分类”模块初次建模，建议使用 30 张图像。数据量并不是越大越好，前期加"
+"入大量无效的数据集不利于后期的模型改进，同时还会延长训练时间。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:86
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:112
+#, no-wrap
+msgid "*数据具有代表性*\n"
+msgstr "*数据具有代表性*\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:88
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:114
+msgid "数据集图像一定要涵盖待检测目标的所有光照、颜色、尺寸等信息。"
+msgstr "数据集图像一定要涵盖待检测目标的所有光照、颜色、尺寸等信息。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:90
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:166
+msgid "光照：实际存在光照变化，数据集应该包含不用光照情况下的图像。"
+msgstr "光照：实际存在光照变化，数据集应该包含不用光照情况下的图像。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:91
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:168
+msgid "颜色：工件存在不同颜色，数据集应该包含所有颜色的图像。"
+msgstr "颜色：工件存在不同颜色，数据集应该包含所有颜色的图像。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:92
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:170
+msgid "尺寸：工件存在不同尺寸，数据集应该包含所有不同大小尺寸的图像。"
+msgstr "尺寸：工件存在不同尺寸，数据集应该包含所有不同大小尺寸的图像。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:94
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:173
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:121
+msgid ""
+"若实际现场工件会出现旋转、缩放、或其他情况，无法采集相应图像数据集时，可以通"
+"过调整数据增强训练参数的方式来补充数据集，以确保现场所有的情况都包含在训练集"
+"内。"
+msgstr ""
+"若实际现场工件会出现旋转、缩放、或其他情况，无法采集相应图像数据集时，可以通"
+"过调整数据增强训练参数的方式来补充数据集，以确保现场所有的情况都包含在训练集"
+"内。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:96
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:123
+#, no-wrap
+msgid "*数据占比均衡*\n"
+msgstr "*数据占比均衡*\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:98
+msgid ""
+"训练集中不同种类的图像比例要均衡，否则会影响模型效果。禁止出现一种物体 20 "
+"张，另一种物体仅有 3 张的情况。"
+msgstr ""
+"训练集中不同种类的图像比例要均衡，否则会影响模型效果。禁止出现一种物体 20 "
+"张，另一种物体仅有 3 张的情况。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:100
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:127
+#, no-wrap
+msgid "*数据集与终端场景保持一致*\n"
+msgstr "*数据集与终端场景保持一致*\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:102
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:129
+msgid ""
+"数据集的图像要与最终模型使用的终端场景保持一致，包括光照条件、工件特征、检测"
+"背景、视野大小等。"
+msgstr ""
+"数据集的图像要与最终模型使用的终端场景保持一致，包括光照条件、工件特征、检测"
+"背景、视野大小等。"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:104
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:10
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:182
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:132
+#, no-wrap
+msgid "确保标注质量"
+msgstr "确保标注质量"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:107
+msgid "确保 *一致性* ，即图像与类别标签相对应。"
+msgstr "确保 *一致性* ，即图像与类别标签相对应。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:108
+#, no-wrap
+msgid "improve_model_accuracy_label.png"
+msgstr "improve_model_accuracy_label.png"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:111
+#, no-wrap
+msgid "类激活图显示"
+msgstr "类激活图显示"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:115
+msgid ""
+"图像分类模型训练完成后，点击 btn:[生成类激活图] 生成类激活图，点击 btn:[显示"
+"类激活图] 即可查看。 类激活图可展示模型训练时，当前图像中被关注的特征区域，从"
+"而帮助检查分类情况，为模型优化提供参考。"
+msgstr ""
+"图像分类模型训练完成后，点击 btn:[生成类激活图] 生成类激活图，点击 btn:[显示"
+"类激活图] 即可查看。 类激活图可展示模型训练时，当前图像中被关注的特征区域，从"
+"而帮助检查分类情况，为模型优化提供参考。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/improve-model-accuracy.adoc:116
+#, no-wrap
+msgid "improve_model_accuracy_class_activatation_maps.png"
+msgstr "improve_model_accuracy_class_activatation_maps.png"
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:3
+#, no-wrap
+msgid "如何训练高质量的模型"
+msgstr "如何训练高质量的模型"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:8
+msgid ""
+"工业质检通常对漏检率和过检率都有严格的标准，因此缺陷分割模型的质量非常重要。"
+"本章将介绍最影响模型质量的几个因素，以及如何训练高质量缺陷分割模型。"
+msgstr ""
+"工业质检通常对漏检率和过检率都有严格的标准，因此缺陷分割模型的质量非常重要。"
+"本章将介绍最影响模型质量的几个因素，以及如何训练高质量缺陷分割模型。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:13
+msgid ""
+"标注质量是影响模型效果的最大因素。实际项目中，因标注质量导致模型效果差的情况"
+"占比高达 90% 以上。因此，如果模型效果不佳，应优先排查标注质量问题。"
+msgstr ""
+"标注质量是影响模型效果的最大因素。实际项目中，因标注质量导致模型效果差的情况"
+"占比高达 90% 以上。因此，如果模型效果不佳，应优先排查标注质量问题。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:15
+msgid "标注质量应从一致性、完备性、精确性、确定性几个方面考虑："
+msgstr "标注质量应从一致性、完备性、精确性、确定性几个方面考虑："
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:17
+#, no-wrap
+msgid "*一致性*：确保缺陷标注方式的一致性，禁止出现同一类型缺陷使用不同方式标注的情况。\n"
+msgstr "*一致性*：确保缺陷标注方式的一致性，禁止出现同一类型缺陷使用不同方式标注的情况。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:18
+#, no-wrap
+msgid "improve-model-accuracy-label_consistency.png"
+msgstr "improve-model-accuracy-label_consistency.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:21
+#, no-wrap
+msgid "*完备性*：确保对所有符合缺陷评判标准的区域都进行了标注，禁止出现遗漏标注的情况。\n"
+msgstr "*完备性*：确保对所有符合缺陷评判标准的区域都进行了标注，禁止出现遗漏标注的情况。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:23
+#, no-wrap
+msgid "improve-model-accuracy-label_completeness.png"
+msgstr "improve-model-accuracy-label_completeness.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:27
+#, no-wrap
+msgid "*精确性*：确保标注区域贴合缺陷边缘，精细标注缺陷区域，禁止粗放使用大面积标注覆盖缺陷区域。\n"
+msgstr "*精确性*：确保标注区域贴合缺陷边缘，精细标注缺陷区域，禁止粗放使用大面积标注覆盖缺陷区域。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:28
+#, no-wrap
+msgid "improve-model-accuracy-label_accuracy.png"
+msgstr "improve-model-accuracy-label_accuracy.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:32
+#, no-wrap
+msgid "*确定性*：对于模棱两可的缺陷，当无法判定是否符合缺陷判定标准时，可以使用掩膜多边形工具遮盖缺陷区域。\n"
+msgstr "*确定性*：对于模棱两可的缺陷，当无法判定是否符合缺陷判定标准时，可以使用掩膜多边形工具遮盖缺陷区域。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:33
+#, no-wrap
+msgid "improve-model-accuracy-certainty.png"
+msgstr "improve-model-accuracy-certainty.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:37
+msgid ""
+"图像中有多处缺陷时，如果无法判断是否符合缺陷判定标准，可以删除当前图像，避免"
+"影响模型训练效果。"
+msgstr ""
+"图像中有多处缺陷时，如果无法判断是否符合缺陷判定标准，可以删除当前图像，避免"
+"影响模型训练效果。"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:40
+#, no-wrap
+msgid "设置合理的感兴趣区域（ROI）"
+msgstr "设置合理的感兴趣区域（ROI）"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:44
+msgid "设置 ROI 可以有效排除背景的干扰，ROI 边界应尽量贴近物体外轮廓。"
+msgstr "设置 ROI 可以有效排除背景的干扰，ROI 边界应尽量贴近物体外轮廓。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:45
+#, no-wrap
+msgid "improve-model-accuracy-roi.png"
+msgstr "improve-model-accuracy-roi.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:49
+msgid ""
+"同一 ROI 设定将应用于所有图片，因此需要保证所有图片中的物体都位于 ROI 内，尤"
+"其是物体位置/尺寸不固定的场景。"
+msgstr ""
+"同一 ROI 设定将应用于所有图片，因此需要保证所有图片中的物体都位于 ROI 内，尤"
+"其是物体位置/尺寸不固定的场景。"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:51
+#, no-wrap
+msgid "选取合适的训练集"
+msgstr "选取合适的训练集"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:55
+#, no-wrap
+msgid ""
+"*训练集数量需可控*\n"
+"对于“缺陷分割”模块初次建模，建议选择 20~30 张图片作为训练集（根据缺陷类别和差异程度可适当调整数量）。数据并不是越多越好，前期大量无效的数据集不利于后期模型迭代，且会增加训练时间。\n"
+msgstr ""
+"*训练集数量需可控*\n"
+"对于“缺陷分割”模块初次建模，建议选择 20~30 张图片作为训练集（根据缺陷类别和差异程度可适当调整数量）。数据并不是越多越好，前期大量无效的数据集不利于后期模型迭代，且会增加训练时间。\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:58
+#, no-wrap
+msgid ""
+"*数据具有代表性*\n"
+"训练集一定要涵盖所有需要检测缺陷类型的 NG 图像，包含所有形态、背景、颜色、尺寸等信息。 OK 图像的特征差异较小时，可以选择少量的 OK 图。\n"
+msgstr ""
+"*数据具有代表性*\n"
+"训练集一定要涵盖所有需要检测缺陷类型的 NG 图像，包含所有形态、背景、颜色、尺寸等信息。 OK 图像的特征差异较小时，可以选择少量的 OK 图。\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:61
+#, no-wrap
+msgid ""
+"*数据占比均衡*\n"
+"训练集中各种缺陷图像数量比例需均衡，禁止一种缺陷图像有 20 张，另一种缺陷图像仅有 5 张的情况。\n"
+msgstr ""
+"*数据占比均衡*\n"
+"训练集中各种缺陷图像数量比例需均衡，禁止一种缺陷图像有 20 张，另一种缺陷图像仅有 5 张的情况。\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/improve-model-accuracy.adoc:64
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:179
+#, no-wrap
+msgid ""
+"*数据集与终端场景保持一致*\n"
+"数据集的图像要与最终模型使用的终端场景保持一致，包括光照条件、工件特征、检测背景、视野大小等。\n"
+msgstr ""
+"*数据集与终端场景保持一致*\n"
+"数据集的图像要与最终模型使用的终端场景保持一致，包括光照条件、工件特征、检测背景、视野大小等。\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:8
+msgid "本章将介绍最影响模型质量的几个因素，以及如何训练出高质量实例分割模型。"
+msgstr "本章将介绍最影响模型质量的几个因素，以及如何训练出高质量实例分割模型。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:17
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:14
+msgid ""
+"避免 *过曝、过暗、颜色失真、模糊、遮挡* 等。这些情况会导致深度学习模型所依赖"
+"的特征丢失，影响模型训练效果。"
+msgstr ""
+"避免 *过曝、过暗、颜色失真、模糊、遮挡* 等。这些情况会导致深度学习模型所依赖"
+"的特征丢失，影响模型训练效果。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:19
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:16
+#, no-wrap
+msgid "improve-model-accuracy-overexposed.png"
+msgstr "improve-model-accuracy-overexposed.png"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:22
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:18
+#, no-wrap
+msgid "improve-model-accuracy-darker_lighting.png"
+msgstr "improve-model-accuracy-darker_lighting.png"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:25
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:20
+#, no-wrap
+msgid "improve-model-accuracy-color_distortion.png"
+msgstr "improve-model-accuracy-color_distortion.png"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:28
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:22
+#, no-wrap
+msgid "improve-model-accuracy-obscure.png"
+msgstr "improve-model-accuracy-obscure.png"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:30
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:24
+#, no-wrap
+msgid "improve-model-accuracy-occluded.png"
+msgstr "improve-model-accuracy-occluded.png"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:34
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:30
+#, no-wrap
+msgid "improve-model-accuracy-background_inconsistent.png"
+msgstr "improve-model-accuracy-background_inconsistent.png"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:37
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:33
+#, no-wrap
+msgid "improve-model-accuracy-field_mismatch.png"
+msgstr "improve-model-accuracy-field_mismatch.png"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:40
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:36
+#, no-wrap
+msgid "improve-model-accuracy-height_mismatch.png"
+msgstr "improve-model-accuracy-height_mismatch.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:49
+msgid ""
+"“实例分割”模块通过学习图像中物体的特征得出模型并应用到实际场景，因此采集和选"
+"取的数据集必须与实际场景情况一致才能训练出高质量模型。"
+msgstr ""
+"“实例分割”模块通过学习图像中物体的特征得出模型并应用到实际场景，因此采集和选"
+"取的数据集必须与实际场景情况一致才能训练出高质量模型。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:57
+msgid ""
+"各种摆放情况均需按采集要求合理分配数量，例如实际生产时来料有横向、竖向和散乱"
+"堆叠的情况，但只采集了横向和竖向来料的图像数据集进行训练，那么无法保证散乱堆"
+"叠的识别效果。因此，采集数据时需要能 *包含实际生产的各种场景* ，具体包括："
+msgstr ""
+"各种摆放情况均需按采集要求合理分配数量，例如实际生产时来料有横向、竖向和散乱"
+"堆叠的情况，但只采集了横向和竖向来料的图像数据集进行训练，那么无法保证散乱堆"
+"叠的识别效果。因此，采集数据时需要能 *包含实际生产的各种场景* ，具体包括："
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:59
+msgid "确保采集的数据中包含实际应用所有可能出现的 *物体朝向* 。"
+msgstr "确保采集的数据中包含实际应用所有可能出现的 *物体朝向* 。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:61
+msgid "确保采集的数据中包含实际应用所有可能出现的 *物体位置* 。"
+msgstr "确保采集的数据中包含实际应用所有可能出现的 *物体位置* 。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:63
+msgid "确保采集的数据中包含实际应用所有可能出现的 *物体间关系* 。"
+msgstr "确保采集的数据中包含实际应用所有可能出现的 *物体间关系* 。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:67
+msgid ""
+"如果少采集了某种情况，深度学习模型将会缺少对于该情况的学习，会导致模型在该情"
+"况下无法有效识别，必须根据情况增加数据样本，降低误差。"
+msgstr ""
+"如果少采集了某种情况，深度学习模型将会缺少对于该情况的学习，会导致模型在该情"
+"况下无法有效识别，必须根据情况增加数据样本，降低误差。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:69
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:60
+#, no-wrap
+msgid "*物体朝向*\n"
+msgstr "*物体朝向*\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:71
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:62
+#, no-wrap
+msgid "improve-model-accuracy-different_towards.png"
+msgstr "improve-model-accuracy-different_towards.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:75
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:66
+#, no-wrap
+msgid "*物体位置*\n"
+msgstr "*物体位置*\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:77
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:67
+#, no-wrap
+msgid "improve-model-accuracy-different_situations.png"
+msgstr "improve-model-accuracy-different_situations.png"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:80
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:69
+#, no-wrap
+msgid "improve-model-accuracy-different_layers.png"
+msgstr "improve-model-accuracy-different_layers.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:84
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:72
+#, no-wrap
+msgid "*物体间关系*\n"
+msgstr "*物体间关系*\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:86
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:73
+#, no-wrap
+msgid "improve-model-accuracy-positions.png"
+msgstr "improve-model-accuracy-positions.png"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:89
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:75
+#, no-wrap
+msgid "improve-model-accuracy-different_positions.png"
+msgstr "improve-model-accuracy-different_positions.png"
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:92
+#, no-wrap
+msgid "数据集采集案例"
+msgstr "数据集采集案例"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:96
+msgid ""
+"某金属件项目，单类物体，因此采集 50 张。物体朝向方面，可能平躺或侧立，采集时"
+"都需要考虑。物体位置方面，需要考虑位于料筐中央、四周、边角以及不同高度的情"
+"况。物体间关系方面，除堆叠外还需要考虑少量并排。实际采集的图片如下："
+msgstr ""
+"某金属件项目，单类物体，因此采集 50 张。物体朝向方面，可能平躺或侧立，采集时"
+"都需要考虑。物体位置方面，需要考虑位于料筐中央、四周、边角以及不同高度的情"
+"况。物体间关系方面，除堆叠外还需要考虑少量并排。实际采集的图片如下："
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:98
+#, no-wrap
+msgid "improve-model-accuracy-metal_part_placement_status.png"
+msgstr "improve-model-accuracy-metal_part_placement_status.png"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:104
+#, no-wrap
+msgid "improve-model-accuracy-metal_part_poses.png"
+msgstr "improve-model-accuracy-metal_part_poses.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:110
+msgid ""
+"某日用品项目，7 类物体混料，需要分类。采集时需考虑“单类物体多种朝向摆放”和“多"
+"类物体混合摆放”的情况，以全面地采集物体特征。单类物体采集数量 = 5 * 类别数"
+"量，多类物体混合摆放采集数量 = 20 * 类别数量。物体朝向方面，可能平躺、侧立或"
+"倾斜，采集时每个面都需要考虑。物体位置方面，需要考虑位于料筐中央、四周、边"
+"角。物体间关系方面，除堆叠外还需要考虑并排与紧密拼接情况。实际采集的图片如"
+"下："
+msgstr ""
+"某日用品项目，7 类物体混料，需要分类。采集时需考虑“单类物体多种朝向摆放”和“多"
+"类物体混合摆放”的情况，以全面地采集物体特征。单类物体采集数量 = 5 * 类别数"
+"量，多类物体混合摆放采集数量 = 20 * 类别数量。物体朝向方面，可能平躺、侧立或"
+"倾斜，采集时每个面都需要考虑。物体位置方面，需要考虑位于料筐中央、四周、边"
+"角。物体间关系方面，除堆叠外还需要考虑并排与紧密拼接情况。实际采集的图片如"
+"下："
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:113
+#, no-wrap
+msgid "*单独摆放：*\n"
+msgstr "*单独摆放：*\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:115
+#, no-wrap
+msgid "improve-model-accuracy-singel_class_subject_positions.png"
+msgstr "improve-model-accuracy-singel_class_subject_positions.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:121
+#, no-wrap
+msgid "*混合摆放：*\n"
+msgstr "*混合摆放：*\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:123
+#, no-wrap
+msgid "improve-model-accuracy-mix_classes_subject_positions.png"
+msgstr "improve-model-accuracy-mix_classes_subject_positions.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:130
+msgid ""
+"某履带板项目，物体有多个型号，因此采集（30 * 型号数量）张。物体朝向方面，只需"
+"考虑正面向上摆放。物体位置方面，摆放方式单一，需包含考虑高、中、低层不同高度"
+"视野的数据。物体间关系方面，规则码放，需重点注意紧密贴合的情况。实际采集图片"
+"如下："
+msgstr ""
+"某履带板项目，物体有多个型号，因此采集（30 * 型号数量）张。物体朝向方面，只需"
+"考虑正面向上摆放。物体位置方面，摆放方式单一，需包含考虑高、中、低层不同高度"
+"视野的数据。物体间关系方面，规则码放，需重点注意紧密贴合的情况。实际采集图片"
+"如下："
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:132
+#, no-wrap
+msgid "improve-model-accuracy-different_layer.png"
+msgstr "improve-model-accuracy-different_layer.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:138
+msgid ""
+"某金属件项目，仅平铺一层，因此采集 50 张。物体朝向方面，仅平铺一层，只需考虑"
+"正面向上摆放。物体位置方面，需考虑到位于料筐中央、四周、边角。物体间关系方"
+"面，需考虑紧密贴合等，实际采集图片如下："
+msgstr ""
+"某金属件项目，仅平铺一层，因此采集 50 张。物体朝向方面，仅平铺一层，只需考虑"
+"正面向上摆放。物体位置方面，需考虑到位于料筐中央、四周、边角。物体间关系方"
+"面，需考虑紧密贴合等，实际采集图片如下："
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:140
+#, no-wrap
+msgid "improve-model-accuracy-different_situation.png"
+msgstr "improve-model-accuracy-different_situation.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:146
+msgid ""
+"某金属件项目，多层整齐码放，采集 30 张。物体朝向方面，只需考虑正面向上摆放。"
+"物体位置方面，需考虑到位于料筐中央、四周、边角以及高、中、低层不同高度的情"
+"况。物体间关系方面，需考虑紧密贴合等，实际采集图片如下："
+msgstr ""
+"某金属件项目，多层整齐码放，采集 30 张。物体朝向方面，只需考虑正面向上摆放。"
+"物体位置方面，需考虑到位于料筐中央、四周、边角以及高、中、低层不同高度的情"
+"况。物体间关系方面，需考虑紧密贴合等，实际采集图片如下："
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:148
+#, no-wrap
+msgid "improve-model-accuracy-different_layers_positions.png"
+msgstr "improve-model-accuracy-different_layers_positions.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:161
+#, no-wrap
+msgid ""
+"*训练集数量可控*\n"
+"对于“实例分割”模块初次建模，建议使用 30~50 张图像。数据量并不是越大越好，前期加入大量无效的数据集不利于后期的模型改进，同时还会延长训练时间。\n"
+msgstr ""
+"*训练集数量可控*\n"
+"对于“实例分割”模块初次建模，建议使用 30~50 张图像。数据量并不是越大越好，前期加入大量无效的数据集不利于后期的模型改进，同时还会延长训练时间。\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:164
+#, no-wrap
+msgid ""
+"*数据具有代表性*\n"
+"数据集图像一定要涵盖待检测目标的所有光照、颜色、尺寸等信息。\n"
+msgstr ""
+"*数据具有代表性*\n"
+"数据集图像一定要涵盖待检测目标的所有光照、颜色、尺寸等信息。\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:176
+#, no-wrap
+msgid ""
+"*数据占比均衡*\n"
+"训练集中不同种类的图像比例要均衡，否则会影响模型效果。禁止出现一种物体 20 张，另一种物体仅有3张的情况。\n"
+msgstr ""
+"*数据占比均衡*\n"
+"训练集中不同种类的图像比例要均衡，否则会影响模型效果。禁止出现一种物体 20 张，另一种物体仅有3张的情况。\n"
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:185
+#, no-wrap
+msgid "确认标注方式"
+msgstr "确认标注方式"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:190
+#, no-wrap
+msgid "*标注上表面轮廓*：适用于平放的规则物体，如纸箱、药盒、矩形工件等。通过上表面轮廓计算抓取点，用户只需要标注上表面矩形框。\n"
+msgstr "*标注上表面轮廓*：适用于平放的规则物体，如纸箱、药盒、矩形工件等。通过上表面轮廓计算抓取点，用户只需要标注上表面矩形框。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:192
+#, no-wrap
+msgid "improve-model-accuracy-2_label_upper_surface.png"
+msgstr "improve-model-accuracy-2_label_upper_surface.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:198
+#, no-wrap
+msgid "*标注完整外轮廓*：适用于麻袋、各类工件等，标注完整外轮廓是通用的标注方式。\n"
+msgstr "*标注完整外轮廓*：适用于麻袋、各类工件等，标注完整外轮廓是通用的标注方式。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:200
+#, no-wrap
+msgid "improve-model-accuracy-3_label_outer_contour.png"
+msgstr "improve-model-accuracy-3_label_outer_contour.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:206
+#, no-wrap
+msgid "*特殊情况*：适用于需要配合夹具或抓取方式的特殊情况。\n"
+msgstr "*特殊情况*：适用于需要配合夹具或抓取方式的特殊情况。\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:208
+msgid "需要保证吸盘与瓶口完全贴合（对精度要求很高），只需标注瓶口轮廓。"
+msgstr "需要保证吸盘与瓶口完全贴合（对精度要求很高），只需标注瓶口轮廓。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:210
+#, no-wrap
+msgid "improve-model-accuracy-4_label_bottle_mouth.png"
+msgstr "improve-model-accuracy-4_label_bottle_mouth.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:214
+msgid ""
+"转子抓取需要区分方向，只标注能明确区分方向的中间部分，不标注两端的细杆。"
+msgstr ""
+"转子抓取需要区分方向，只标注能明确区分方向的中间部分，不标注两端的细杆。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:216
+#, no-wrap
+msgid "improve-model-accuracy-5_label_the_middle_part_of_the_rotor.png"
+msgstr "improve-model-accuracy-5_label_the_middle_part_of_the_rotor.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:220
+msgid ""
+"需要保证吸取位置在金属件中间部分，所以只标注工件中间金属部分，不需要标注两"
+"端。"
+msgstr ""
+"需要保证吸取位置在金属件中间部分，所以只标注工件中间金属部分，不需要标注两"
+"端。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:222
+#, no-wrap
+msgid "improve-model-accuracy-6_label_the_middle_part.png"
+msgstr "improve-model-accuracy-6_label_the_middle_part.png"
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:225
+#, no-wrap
+msgid "检查标注质量"
+msgstr "检查标注质量"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:229
+msgid "标注质量应从完备性、正确性、一致性、精确性几个方面考虑："
+msgstr "标注质量应从完备性、正确性、一致性、精确性几个方面考虑："
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:232
+#, no-wrap
+msgid "*完备性*：标注所有符合规则的物体，禁止出现遗漏标注的情况。\n"
+msgstr "*完备性*：标注所有符合规则的物体，禁止出现遗漏标注的情况。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:234
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:140
+#, no-wrap
+msgid "improve-model-accuracy-contour_missed.png"
+msgstr "improve-model-accuracy-contour_missed.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:238
+#, no-wrap
+msgid "*正确性*：确保物体与所属的标签正确对应，禁止出现物体与标签不一致的情况。\n"
+msgstr "*正确性*：确保物体与所属的标签正确对应，禁止出现物体与标签不一致的情况。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:240
+#, no-wrap
+msgid "improve-model-accuracy-label_name_not_correspond.png"
+msgstr "improve-model-accuracy-label_name_not_correspond.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:244
+#, no-wrap
+msgid "*一致性*：所有数据应遵循同一标注规则。例如标注规则规定只标注整体露出 85% 以上的物体，则应该标注所有符合该规则的物体，避免出现某一物体标注了但另一类似物体没有标注的情况。\n"
+msgstr "*一致性*：所有数据应遵循同一标注规则。例如标注规则规定只标注整体露出 85% 以上的物体，则应该标注所有符合该规则的物体，避免出现某一物体标注了但另一类似物体没有标注的情况。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:246
+#, no-wrap
+msgid "improve-model-accuracy-contour_inconsistent.png"
+msgstr "improve-model-accuracy-contour_inconsistent.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:249
+#, no-wrap
+msgid "*精确性*：标注轮廓紧密贴合目标物体边缘，禁止出现少标注或多标注的情况。\n"
+msgstr "*精确性*：标注轮廓紧密贴合目标物体边缘，禁止出现少标注或多标注的情况。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/improve-model-accuracy.adoc:251
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:144
+#, no-wrap
+msgid "improve-model-accuracy-contour_incomplete_over.png"
+msgstr "improve-model-accuracy-contour_incomplete_over.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:8
+msgid "本章将介绍最影响模型质量的几个因素，以及如何训练出高质量目标检测模型。"
+msgstr "本章将介绍最影响模型质量的几个因素，以及如何训练出高质量目标检测模型。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:43
+msgid ""
+"“目标检测”模块通过学习图像中的物体特征得出模型并应用到实际场景，因此采集和选"
+"取的数据集必须与实际场景情况一致才能训练出高质量模型。"
+msgstr ""
+"“目标检测”模块通过学习图像中的物体特征得出模型并应用到实际场景，因此采集和选"
+"取的数据集必须与实际场景情况一致才能训练出高质量模型。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:49
+msgid ""
+"需合理分配各种摆放情况。例如实际生产时来料有横向、竖向和散乱堆叠的情况，但只"
+"采集横向和竖向来料的图像数据集进行训练，则无法保证散乱堆叠的识别效果。因此，"
+"采集数据时需要能 *包含实际生产的各种场景* ，具体包括："
+msgstr ""
+"需合理分配各种摆放情况。例如实际生产时来料有横向、竖向和散乱堆叠的情况，但只"
+"采集横向和竖向来料的图像数据集进行训练，则无法保证散乱堆叠的识别效果。因此，"
+"采集数据时需要能 *包含实际生产的各种场景* ，具体包括："
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:51
+msgid "实际应用所有可能出现的 *物体朝向* 。"
+msgstr "实际应用所有可能出现的 *物体朝向* 。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:53
+msgid "实际应用所有可能出现的 *物体位置* 。"
+msgstr "实际应用所有可能出现的 *物体位置* 。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:55
+msgid "实际应用所有可能出现的 *物体间关系* 。"
+msgstr "实际应用所有可能出现的 *物体间关系* 。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:58
+msgid ""
+"如果少采集了某种情况的数据，算法模块会缺少该情况下数据的学习，将导致模型在该"
+"情况下识别效果不佳，因此必须根据情况增加数据样本，降低误差。"
+msgstr ""
+"如果少采集了某种情况的数据，算法模块会缺少该情况下数据的学习，将导致模型在该"
+"情况下识别效果不佳，因此必须根据情况增加数据样本，降低误差。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:82
+msgid ""
+"某工件检测项目，来料为无规则散乱摆放的转子，要求精准检测所有的转子位置。一共"
+"采集 30 张。"
+msgstr ""
+"某工件检测项目，来料为无规则散乱摆放的转子，要求精准检测所有的转子位置。一共"
+"采集 30 张。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:84
+#, no-wrap
+msgid "*物体位置* 方面，需考虑采集实际生产时转子可能位于料筐的所有位置；同时需要考虑抓取时转子数量由多到少的情况。\n"
+msgstr "*物体位置* 方面，需考虑采集实际生产时转子可能位于料筐的所有位置；同时需要考虑抓取时转子数量由多到少的情况。\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:86
+#, no-wrap
+msgid "*物体间关系* 方面，需考虑转子散乱、整齐和压叠摆放的情况。\n"
+msgstr "*物体间关系* 方面，需考虑转子散乱、整齐和压叠摆放的情况。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:89
+#, no-wrap
+msgid "improve-model-accuracy-different_positions_0.png"
+msgstr "improve-model-accuracy-different_positions_0.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:93
+msgid "某钢筋计数项目，来料为成捆的钢筋，要求精准输出钢筋数量。一共采集20张。"
+msgstr "某钢筋计数项目，来料为成捆的钢筋，要求精准输出钢筋数量。一共采集20张。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:95
+msgid ""
+"钢筋特征相对单一，因此只需考虑 *物体位置* 的多样性，采集实际生产时钢筋可能位"
+"于相机视野中的所有位置。"
+msgstr ""
+"钢筋特征相对单一，因此只需考虑 *物体位置* 的多样性，采集实际生产时钢筋可能位"
+"于相机视野中的所有位置。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:97
+#, no-wrap
+msgid "improve-model-accuracy-different_positions_1.png"
+msgstr "improve-model-accuracy-different_positions_1.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:110
+msgid ""
+"“目标检测”模块初次训练建议准备 20 张图像，不需要过多数据。前期加入大量类似数"
+"据训练会延长不必要的训练时间，同时不利于后期改进模型。"
+msgstr ""
+"“目标检测”模块初次训练建议准备 20 张图像，不需要过多数据。前期加入大量类似数"
+"据训练会延长不必要的训练时间，同时不利于后期改进模型。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:116
+#, no-wrap
+msgid "*光照*：实际场景存在光照变化，数据集应该包含所有光照情况下的图像。\n"
+msgstr "*光照*：实际场景存在光照变化，数据集应该包含所有光照情况下的图像。\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:117
+#, no-wrap
+msgid "*颜色*：工件存在不同颜色，数据集应该包含所有颜色的图像。\n"
+msgstr "*颜色*：工件存在不同颜色，数据集应该包含所有颜色的图像。\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:118
+#, no-wrap
+msgid "*尺寸*：工件存在不同尺寸，数据集应该包含所有尺寸工件的图像。\n"
+msgstr "*尺寸*：工件存在不同尺寸，数据集应该包含所有尺寸工件的图像。\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:125
+msgid ""
+"训练集中 *不同种类或不同摆放方式* 的图像比例要均衡，否则会影响模型效果。禁止"
+"出现一种物体 20 张，另一种物体仅有 3 张；或整齐摆放 40 张，散乱摆放只有 5 张"
+"的情况。"
+msgstr ""
+"训练集中 *不同种类或不同摆放方式* 的图像比例要均衡，否则会影响模型效果。禁止"
+"出现一种物体 20 张，另一种物体仅有 3 张；或整齐摆放 40 张，散乱摆放只有 5 张"
+"的情况。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:136
+msgid "标注质量应从完备性、精确性两个方面考虑："
+msgstr "标注质量应从完备性、精确性两个方面考虑："
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:139
+#, no-wrap
+msgid "*完备性*：标注所有物体，禁止出现遗漏标注的情况。\n"
+msgstr "*完备性*：标注所有物体，禁止出现遗漏标注的情况。\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/improve-model-accuracy.adoc:143
+#, no-wrap
+msgid "*精确性*：标注的矩形框应包住物体，禁止出现少标注物体某部分，或大量标注物体轮廓外区域的情况。\n"
+msgstr "*精确性*：标注的矩形框应包住物体，禁止出现少标注物体某部分，或大量标注物体轮廓外区域的情况。\n"

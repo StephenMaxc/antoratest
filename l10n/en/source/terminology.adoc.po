@@ -1,0 +1,181 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:3
+#, no-wrap
+msgid "术语表"
+msgstr "术语表"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:6
+msgid "ROI"
+msgstr "ROI"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:8
+msgid ""
+"感兴趣区域 (ROI) 是从图像中选择的一个图像区域，该区域是图像分析所关注的重点，"
+"截取 ROI 后可以减少处理时间，提高精度。"
+msgstr ""
+"感兴趣区域 (ROI) 是从图像中选择的一个图像区域，该区域是图像分析所关注的重点，"
+"截取 ROI 后可以减少处理时间，提高精度。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:10
+msgid "标注"
+msgstr "标注"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:12
+msgid ""
+"标注指用户使用工具手动选择图像中的区域，以标明特征或缺陷，并对所选区域添加标"
+"签，或直接对整张图像添加标签的过程。通过标签告诉工具，这是它需要学习的内容。"
+msgstr ""
+"标注指用户使用工具手动选择图像中的区域，以标明特征或缺陷，并对所选区域添加标"
+"签，或直接对整张图像添加标签的过程。通过标签告诉工具，这是它需要学习的内容。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:14
+msgid "数据集"
+msgstr "数据集"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:16
+msgid "{product-dlk} 导出的格式为 dlkdb 的带有标注信息的文件。"
+msgstr "{product-dlk} 导出的格式为 dlkdb 的带有标注信息的文件。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:18
+msgid "未标注"
+msgstr "未标注"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:20
+msgid "未经过标注的图像数据。"
+msgstr "未经过标注的图像数据。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:22
+msgid "训练集"
+msgstr "训练集"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:24
+msgid "人工手动标注过的图像数据集，用于模型训练。"
+msgstr "人工手动标注过的图像数据集，用于模型训练。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:26
+msgid "验证集"
+msgstr "验证集"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:28
+msgid "人工手动标注过的图像数据集，用于模型效果测试。"
+msgstr "人工手动标注过的图像数据集，用于模型效果测试。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:30
+msgid "OK图"
+msgstr "OK图"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:32
+msgid "没有缺陷的图像。"
+msgstr "没有缺陷的图像。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:34
+msgid "NG图"
+msgstr "NG图"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:36
+msgid "有缺陷的图像。"
+msgstr "有缺陷的图像。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:38
+msgid "训练"
+msgstr "训练"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:40
+msgid "用“训练集”图像训练深度学习模型的过程。"
+msgstr "用“训练集”图像训练深度学习模型的过程。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:42
+msgid "验证"
+msgstr "验证"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:44
+msgid "用已经训练好的模型对数据进行计算，并给出结果。"
+msgstr "用已经训练好的模型对数据进行计算，并给出结果。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:46
+msgid "精度"
+msgstr "精度"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:48
+msgid "模型在预测验证集时，其正确预测的样本数占总样本数的比值。"
+msgstr "模型在预测验证集时，其正确预测的样本数占总样本数的比值。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:50
+msgid "损失"
+msgstr "损失"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:52
+msgid "估量模型预测验证集的结果与真实结果的不一致程度。"
+msgstr "估量模型预测验证集的结果与真实结果的不一致程度。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:54
+msgid "轮次"
+msgstr "轮次"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:56
+msgid "深度学习算法在整个训练数据集中学习的次数。"
+msgstr "深度学习算法在整个训练数据集中学习的次数。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:58
+msgid "过检（FP）"
+msgstr "过检（FP）"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:60
+msgid "实际不含缺陷的图被预测为含缺陷的图。"
+msgstr "实际不含缺陷的图被预测为含缺陷的图。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:62
+msgid "漏检（FN）"
+msgstr "漏检（FN）"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/terminology.adoc:64
+msgid "实际含缺陷的图被预测为不含缺陷的图。"
+msgstr "实际含缺陷的图被预测为不含缺陷的图。"

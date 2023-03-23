@@ -1,0 +1,180 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:3
+#, no-wrap
+msgid "运行 SDK C# 示例工程"
+msgstr "运行 SDK C# 示例工程"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:8
+msgid ""
+"SDK_Example 工程提供了示例，展示如何使用 Mech-DLK SDK 来完成应用程序中所需的"
+"功能。此处以缺陷分割为例，并为用户提供了所需的模型和图像数据集，带领用户运行 "
+"SDK 工程："
+msgstr ""
+"SDK_Example 工程提供了示例，展示如何使用 Mech-DLK SDK 来完成应用程序中所需的"
+"功能。此处以缺陷分割为例，并为用户提供了所需的模型和图像数据集，带领用户运行 "
+"SDK 工程："
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:10
+msgid ""
+"link:++https://docs.mech-mind.net//download/Mech-DLK/"
+"DefectDetection(NetworkPort).rar++[点击下载图像数据集]"
+msgstr ""
+"link:++https://docs.mech-mind.net//download/Mech-DLK/"
+"DefectDetection(NetworkPort).rar++[点击下载图像数据集]"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:12
+msgid ""
+"link:++https://docs.mech-mind.net//download/Mech-DLK/DefectDetection(Model)."
+"rar++[点击下载模型]"
+msgstr ""
+"link:++https://docs.mech-mind.net//download/Mech-DLK/DefectDetection(Model)."
+"rar++[点击下载模型]"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:14
+#, no-wrap
+msgid "example-project-flow_chart.png"
+msgstr "example-project-flow_chart.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:19
+#, no-wrap
+msgid "*打开示例工程*：双击下图路径下的 SDK_Example.sln 文件，使用 Visual Studio 2019 应用打开。\n"
+msgstr "*打开示例工程*：双击下图路径下的 SDK_Example.sln 文件，使用 Visual Studio 2019 应用打开。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:21
+#, no-wrap
+msgid "example-project-sdk_demo.png"
+msgstr "example-project-sdk_demo.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:25
+#, no-wrap
+msgid "*引用 SDK*：点击右键工程栏中的 btn:[引用] 选择添加引用，会弹出引用管理器窗口，点击 浏览 勾选 run time 文件夹下的 mmind_dl_sdk_csharp.dll 文件后点击 btn:[确定] 。\n"
+msgstr "*引用 SDK*：点击右键工程栏中的 btn:[引用] 选择添加引用，会弹出引用管理器窗口，点击 浏览 勾选 run time 文件夹下的 mmind_dl_sdk_csharp.dll 文件后点击 btn:[确定] 。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:27
+#, no-wrap
+msgid "example-project-dll.png"
+msgstr "example-project-dll.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:33
+#, no-wrap
+msgid "*生成解决方案*：点击上方导航栏的 btn:[生成] 选择btn:[生成解决方案(B)] 生成可执行文件。在界面下方的输出栏中查看可执行文件生成的路径。\n"
+msgstr "*生成解决方案*：点击上方导航栏的 btn:[生成] 选择btn:[生成解决方案(B)] 生成可执行文件。在界面下方的输出栏中查看可执行文件生成的路径。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:35
+#, no-wrap
+msgid "example-project-build.png"
+msgstr "example-project-build.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:41
+#, no-wrap
+msgid "*添加运行时库*：将下图文件夹内所有的 dll 格式的文件拷贝到上一步骤生成的可执行文件 Release 目录下，若有重复文件，直接覆盖即可。\n"
+msgstr "*添加运行时库*：将下图文件夹内所有的 dll 格式的文件拷贝到上一步骤生成的可执行文件 Release 目录下，若有重复文件，直接覆盖即可。\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:43
+#, no-wrap
+msgid "*原文件位置*：\n"
+msgstr "*原文件位置*：\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:45
+#, no-wrap
+msgid "example-project-document.png"
+msgstr "example-project-document.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:49
+#, no-wrap
+msgid "*目标路径*：\n"
+msgstr "*目标路径*：\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:51
+#, no-wrap
+msgid "example-project-target_path.png"
+msgstr "example-project-target_path.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:57
+#, no-wrap
+msgid "*启动项目*：点击 btn:[启动] 运行程序。\n"
+msgstr "*启动项目*：点击 btn:[启动] 运行程序。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:59
+#, no-wrap
+msgid "example-project-start.png"
+msgstr "example-project-start.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:66
+msgid "启动后程序界面："
+msgstr "启动后程序界面："
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:68
+msgid "btn:[Load Image] ：加载待推理图像。"
+msgstr "btn:[Load Image] ：加载待推理图像。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:69
+msgid "btn:[Load Model] ：加载 Mech-DLK 导出的 dlkpack 格式的模型。"
+msgstr "btn:[Load Model] ：加载 Mech-DLK 导出的 dlkpack 格式的模型。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:70
+msgid "btn:[Infer] ：进行推理。"
+msgstr "btn:[Infer] ：进行推理。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:72
+#, no-wrap
+msgid "example-project-start_img.png"
+msgstr "example-project-start_img.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:76
+msgid "运行结果界面："
+msgstr "运行结果界面："
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:78
+#, no-wrap
+msgid "example-project-result.png"
+msgstr "example-project-result.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/sdk/pages/example-project.adoc:83
+msgid ""
+"首次加载模型时间略长，需要等待5分钟左右，建议用户使用多线程来调用相应接口。"
+msgstr ""
+"首次加载模型时间略长，需要等待5分钟左右，建议用户使用多线程来调用相应接口。"

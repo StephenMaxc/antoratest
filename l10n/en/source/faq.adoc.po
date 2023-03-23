@@ -1,0 +1,208 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:3
+#, no-wrap
+msgid "FAQ"
+msgstr "FAQ"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:8
+msgid "缺陷分割模型效果不好，如何排查原因？::"
+msgstr "缺陷分割模型效果不好，如何排查原因？::"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:9
+msgid "检查标注是否有误。"
+msgstr "检查标注是否有误。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:10
+msgid "检查训练集中是否包含所有种类的缺陷。"
+msgstr "检查训练集中是否包含所有种类的缺陷。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:11
+msgid "检查图像输入尺寸是否合理，若缺陷太小可能无法有效训练模型。"
+msgstr "检查图像输入尺寸是否合理，若缺陷太小可能无法有效训练模型。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:14
+msgid ""
+"通过主动调整相机曝光或者补光的方式模拟环境变化采集数据是否可行？:: 不可行。若"
+"现场早晚光照会发生变化，应该分别采集实际现场不同光照条件下的数据，人工制造的"
+"数据无法确定可参考性。"
+msgstr ""
+"通过主动调整相机曝光或者补光的方式模拟环境变化采集数据是否可行？:: 不可行。若"
+"现场早晚光照会发生变化，应该分别采集实际现场不同光照条件下的数据，人工制造的"
+"数据无法确定可参考性。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:17
+msgid ""
+"拍照位置固定，来料位置会稍有变动，通过移动拍照位置来模拟工件位置变动情况是否"
+"可行？:: 不可行。相机位置在采集数据前应该固定好，移动相机会影响深度学习模型效"
+"果且会影响相机外参，此种情况可在训练时适当截大感兴趣区域。"
+msgstr ""
+"拍照位置固定，来料位置会稍有变动，通过移动拍照位置来模拟工件位置变动情况是否"
+"可行？:: 不可行。相机位置在采集数据前应该固定好，移动相机会影响深度学习模型效"
+"果且会影响相机外参，此种情况可在训练时适当截大感兴趣区域。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:20
+msgid ""
+"原相机数据质量不好，更换相机后是否需要加入原始数据迭代模型？:: 不需要。需要重"
+"新采集更换相机后的数据，再进行模型训练。"
+msgstr ""
+"原相机数据质量不好，更换相机后是否需要加入原始数据迭代模型？:: 不需要。需要重"
+"新采集更换相机后的数据，再进行模型训练。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:23
+msgid ""
+"更换背景是否会影响深度学习效果？:: 会影响。背景变化会导致模型出现误识别或漏识"
+"别的情况，所以前期确认背景后最好不要再更换。"
+msgstr ""
+"更换背景是否会影响深度学习效果？:: 会影响。背景变化会导致模型出现误识别或漏识"
+"别的情况，所以前期确认背景后最好不要再更换。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:26
+msgid ""
+"相机型号、高度不同的情况下，采集的数据是否可以放在一起训练模型？:: 可以，需注"
+"意ROI问题，不同高度ROI分别截取，减小差异。"
+msgstr ""
+"相机型号、高度不同的情况下，采集的数据是否可以放在一起训练模型？:: 可以，需注"
+"意ROI问题，不同高度ROI分别截取，减小差异。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:29
+msgid ""
+"对于高反光金属件，采集数据时需要注意哪些情况？:: 需注意数据光照不可以过曝或过"
+"暗，对于不可避免的局部过曝的情况，需保证工件轮廓清晰。"
+msgstr ""
+"对于高反光金属件，采集数据时需要注意哪些情况？:: 需注意数据光照不可以过曝或过"
+"暗，对于不可避免的局部过曝的情况，需保证工件轮廓清晰。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:32
+msgid ""
+"模型识别效果不好如何排查原因？:: 可以从训练数据的数量及质量、数据多样性、现场"
+"设置的ROI参数以及现场光照等方面排查。"
+msgstr ""
+"模型识别效果不好如何排查原因？:: 可以从训练数据的数量及质量、数据多样性、现场"
+"设置的ROI参数以及现场光照等方面排查。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:34
+msgid "数量：训练数据量是否足够使模型达到良好的效果。"
+msgstr "数量：训练数据量是否足够使模型达到良好的效果。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:35
+msgid "质量：数据质量是否达标，是否足够清晰且无过曝过暗的情况。"
+msgstr "质量：数据质量是否达标，是否足够清晰且无过曝过暗的情况。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:36
+msgid "数据多样性：数据是否都涵盖了现场可能出现的所有情况。"
+msgstr "数据多样性：数据是否都涵盖了现场可能出现的所有情况。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:37
+msgid "ROI参数：现场设置的数值是否确保与训练时设置的一致。"
+msgstr "ROI参数：现场设置的数值是否确保与训练时设置的一致。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:38
+msgid "光照：光照是否发生变化，是否与采集时保持一致。"
+msgstr "光照：光照是否发生变化，是否与采集时保持一致。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:41
+msgid ""
+"现场光照复杂，因为物体被阴影遮挡造成的模型识别效果不稳定应如何改善？:: 可根据"
+"现场实际情况采取遮光或补光的措施。"
+msgstr ""
+"现场光照复杂，因为物体被阴影遮挡造成的模型识别效果不稳定应如何改善？:: 可根据"
+"现场实际情况采取遮光或补光的措施。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:44
+msgid ""
+"为什么现场数据与训练数据ROI设置不一致会影响实例分割置信值的高低？:: 与训练数"
+"据ROI不一致会使物体不在模型的最佳识别大小范围内，因而影响置信值，所以实际应用"
+"时数据ROI设置应与训练数据ROI保持一致。"
+msgstr ""
+"为什么现场数据与训练数据ROI设置不一致会影响实例分割置信值的高低？:: 与训练数"
+"据ROI不一致会使物体不在模型的最佳识别大小范围内，因而影响置信值，所以实际应用"
+"时数据ROI设置应与训练数据ROI保持一致。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:47
+msgid ""
+"纸箱超级模型是什么？:: 针对纸箱拆/码垛场景提供了“超级模型” （ link:++https://"
+"docs.mech-mind.net//download/Mech-DLK/finetune_models.rar++[点击下载] ），可"
+"以直接应用到大多数现场，在无需采集图像训练的情况下就可以正确分割绝大多数纸"
+"箱。"
+msgstr ""
+"纸箱超级模型是什么？:: 针对纸箱拆/码垛场景提供了“超级模型” （ link:++https://"
+"docs.mech-mind.net//download/Mech-DLK/finetune_models.rar++[点击下载] ），可"
+"以直接应用到大多数现场，在无需采集图像训练的情况下就可以正确分割绝大多数纸"
+"箱。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:50
+msgid ""
+"纸箱超级模型适用于哪些场景？:: 适用于颜色、花纹单一或多样的纸箱拆、码垛场景；"
+"需注意此模型只适用于纸箱在同一平层时水平摆放，没有倾斜放置的情况。"
+msgstr ""
+"纸箱超级模型适用于哪些场景？:: 适用于颜色、花纹单一或多样的纸箱拆、码垛场景；"
+"需注意此模型只适用于纸箱在同一平层时水平摆放，没有倾斜放置的情况。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:53
+msgid ""
+"纸箱超级模型该如何采集数据？:: 先用纸箱超级模型测试一遍，如果无法完全正确分"
+"割，则针对问题数据种类有针对性的采集20张左右。"
+msgstr ""
+"纸箱超级模型该如何采集数据？:: 先用纸箱超级模型测试一遍，如果无法完全正确分"
+"割，则针对问题数据种类有针对性的采集20张左右。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:56
+msgid ""
+"用新版 Mech-DLK 打开旧工程验证时，验证结果出现偏移如何解决？:: 重新点击一下 "
+"btn:[验证] 即可。"
+msgstr ""
+"用新版 Mech-DLK 打开旧工程验证时，验证结果出现偏移如何解决？:: 重新点击一下 "
+"btn:[验证] 即可。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/appendix/pages/faq.adoc:60
+msgid ""
+"使用 Mech-DLK 训练模型时，软件报错显示 ModuleNotFoundError: No module named "
+"‘onnxruntime’ 怎么解决？:: 进入 C 盘的“用户”文件夹，打开当前用户文件夹。 检"
+"查 AppData/Roaming/Python/Pythong36/site-packages 目录下是否为空，若不为空，"
+"请手动删除该目录下所有内容。"
+msgstr ""
+"使用 Mech-DLK 训练模型时，软件报错显示 ModuleNotFoundError: No module named "
+"‘onnxruntime’ 怎么解决？:: 进入 C 盘的“用户”文件夹，打开当前用户文件夹。 检"
+"查 AppData/Roaming/Python/Pythong36/site-packages 目录下是否为空，若不为空，"
+"请手动删除该目录下所有内容。"

@@ -1,0 +1,363 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr "Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:3
+#, no-wrap
+msgid "兼容性说明"
+msgstr "Compatibility"
+
+#. type: Block title
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:5
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/nav.adoc:1
+#, no-wrap
+msgid "实例分割"
+msgstr "Instance Segmentation"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:11
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:105
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:201
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:297
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:375
+#, no-wrap
+msgid "{product-vis} 版本"
+msgstr "{product-vis} version"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:13
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:107
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:203
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:299
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:377
+#, no-wrap
+msgid "深度学习环境版本"
+msgstr "Deep learning environment version"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:15
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:109
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:205
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:301
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:379
+#, no-wrap
+msgid "{product-vis} 步骤"
+msgstr "{product-vis} Step"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:17
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:111
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:207
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:303
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:381
+#, no-wrap
+msgid "模型对应的 {product-dlk} 版本"
+msgstr "{product-dlk} version for model"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:19
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:113
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:209
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:305
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:383
+#, no-wrap
+msgid "模型及配置文件后缀"
+msgstr "Model and configuration file extensions"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:22
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:24
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:28
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:39
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:55
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:116
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:118
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:122
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:133
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:153
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:212
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:214
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:218
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:229
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:249
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:308
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:310
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:314
+#, no-wrap
+msgid "1.4.0"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:26
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:37
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:53
+#, no-wrap
+msgid "实例分割（需要开启深度学习服务器）"
+msgstr "Instance Segmentation (Please start the deep learning server for the Step.)"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:30
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:41
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:57
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:220
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:231
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:316
+#, no-wrap
+msgid ".pth/.py"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:33
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:127
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:223
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:319
+#, no-wrap
+msgid "1.5.x"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:35
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:44
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:51
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:60
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:129
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:142
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:149
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:162
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:225
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:238
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:245
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:258
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:325
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:336
+#, no-wrap
+msgid "2.0.0/2.1.0"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:46
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:62
+#, no-wrap
+msgid ".dlkmp/.dlkcfg"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:49
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:147
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:243
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:330
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:386
+#, no-wrap
+msgid "1.6.0"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:65
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:76
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:88
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:138
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:158
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:172
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:184
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:234
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:254
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:268
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:280
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:321
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:332
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:348
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:359
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:388
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:399
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:410
+#, no-wrap
+msgid "无需安装环境"
+msgstr "No deep learning environment required"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:67
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:165
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:261
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:341
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:350
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:361
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:390
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:401
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:412
+#, no-wrap
+msgid "深度学习模型包推理（{product-dlk}2.2.0+）"
+msgstr "Deep Learning Inference ({product-dlk}2.2.0+)"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:69
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:167
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:263
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:343
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:392
+#, no-wrap
+msgid "2.2.0+"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:71
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:144
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:155
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:240
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:251
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:327
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:338
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:354
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:365
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:394
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:405
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:416
+#, no-wrap
+msgid ".dlkpack"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:74
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:170
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:266
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:346
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:397
+#, no-wrap
+msgid "1.6.1"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:79
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:91
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:175
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:187
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:271
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:283
+#, no-wrap
+msgid ""
+"深度学习模型包CPU推理\n"
+"深度学习模型包推理（{product-dlk}2.2.0+）"
+msgstr ""
+"Deep Learning Model Package CPU Inference/\n"
+"Deep Learning Inference ({product-dlk}2.2.0+)"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:81
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:93
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:177
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:189
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:273
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:285
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:352
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:363
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:403
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:414
+#, no-wrap
+msgid "2.2.1+"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:83
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:95
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:179
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:191
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:275
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:287
+#, no-wrap
+msgid ".dlkpackC/.dlkpack"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:86
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:182
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:278
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:357
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:408
+#, no-wrap
+msgid "1.6.2"
+msgstr ""
+
+#. type: Block title
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:99
+#: mechdlkrepository/zh_CN/modules/classification/nav.adoc:1
+#, no-wrap
+msgid "图像分类"
+msgstr "Image Classification"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:120
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:131
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:151
+#, no-wrap
+msgid "图像分类（需要开启深度学习服务器）"
+msgstr "Image Classification (Please start the deep learning server for the Step.)"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:124
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:135
+#, no-wrap
+msgid ".pth/.json"
+msgstr ""
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:140
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:236
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:323
+#, no-wrap
+msgid "深度学习推理"
+msgstr "Deep Learning Inference"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:160
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:256
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:334
+#, no-wrap
+msgid "深度学习推理（{product-dlk}2.1.0/2.0.0）"
+msgstr "Deep Learning Inference ({product-dlk}2 2.1.0/2.0.0)"
+
+#. type: Block title
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:195
+#: mechdlkrepository/zh_CN/modules/object-detection/nav.adoc:1
+#, no-wrap
+msgid "目标检测"
+msgstr "Object Detection"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:216
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:227
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:247
+#, no-wrap
+msgid "目标检测（需要开启深度学习服务器）"
+msgstr "Object Detection (Please start the deep learning server for the Step.)"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:291
+#, no-wrap
+msgid "缺陷检测"
+msgstr "Defect Segmentation"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:312
+#, no-wrap
+msgid "缺陷检测（需要开启深度学习服务器）"
+msgstr "Defect Detection (Please start the deep learning server for the Step.)"
+
+#. type: Block title
+#: mechdlkrepository/zh_CN/modules/appendix/pages/compatibility-statement.adoc:369
+#: mechdlkrepository/zh_CN/modules/fast-positioning/nav.adoc:1
+#, no-wrap
+msgid "快速定位"
+msgstr "Fast Positioning"

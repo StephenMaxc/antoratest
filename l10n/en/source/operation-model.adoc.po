@@ -1,0 +1,120 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/operation-model.adoc:3
+#, no-wrap
+msgid "如何进行批量数据集测试"
+msgstr "如何进行批量数据集测试"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/operation-model.adoc:9
+msgid ""
+"通过 *运行模式* 可批量测试数据。该功能只支持在“缺陷分割”和“图像分类”模块下使"
+"用。模型训练完成后，点击工具，打开 *运行模式* 可以导入大量新的数据集进行测"
+"试，并进行人工复判；验证结束后，可以输出报表，报表内包含准确率、过检率、漏检"
+"率等信息。"
+msgstr ""
+"通过 *运行模式* 可批量测试数据。该功能只支持在“缺陷分割”和“图像分类”模块下使"
+"用。模型训练完成后，点击工具，打开 *运行模式* 可以导入大量新的数据集进行测"
+"试，并进行人工复判；验证结束后，可以输出报表，报表内包含准确率、过检率、漏检"
+"率等信息。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/operation-model.adoc:10
+#, no-wrap
+msgid "operation_model_location.png"
+msgstr "operation_model_location.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/operation-model.adoc:13
+#, no-wrap
+msgid "*选择数据来源*：若需要使用运行模式进行模型效果演示，数据来源选择 *{product-dlk}* ；若需要读取大量新的数据集进行测试，数据来源选择 *文件夹* 。\n"
+msgstr "*选择数据来源*：若需要使用运行模式进行模型效果演示，数据来源选择 *{product-dlk}* ；若需要读取大量新的数据集进行测试，数据来源选择 *文件夹* 。\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/operation-model.adoc:14
+#: mechdlkrepository/zh_CN/modules/classification/pages/example-projects.adoc:35
+#, no-wrap
+msgid "\n"
+msgstr "\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/operation-model.adoc:15
+#, no-wrap
+msgid "btn:[{product-dlk}] ：直接导入当前工程内的全部图像数据集。\n"
+msgstr "btn:[{product-dlk}] ：直接导入当前工程内的全部图像数据集。\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/operation-model.adoc:16
+#, no-wrap
+msgid "btn:[文件夹] ：选择图像文件夹路径后，将文件夹中的所有图像作为一个新数据集导入。加载的新数据将独立于软件内的原始数据集。\n"
+msgstr "btn:[文件夹] ：选择图像文件夹路径后，将文件夹中的所有图像作为一个新数据集导入。加载的新数据将独立于软件内的原始数据集。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/operation-model.adoc:17
+#, no-wrap
+msgid "operation_model_load_dataset.png"
+msgstr "operation_model_load_dataset.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/operation-model.adoc:21
+msgid ""
+"在使用运行模式之前，如果除了当前工程的训练集和验证集，还导入了新的图像数据到"
+"数据栏（工程数据集），那么当运行模式的数据来源为btn:[{product-dlk}]时，会一并"
+"读取新导入的图像。"
+msgstr ""
+"在使用运行模式之前，如果除了当前工程的训练集和验证集，还导入了新的图像数据到"
+"数据栏（工程数据集），那么当运行模式的数据来源为btn:[{product-dlk}]时，会一并"
+"读取新导入的图像。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/operation-model.adoc:23
+#, no-wrap
+msgid "*缺陷检测设置*：请根据缺陷判定标准设置各个参数，软件中会同步开启缺陷过滤相关选项。缺陷检测参数与“缺陷分割”模块中的缺陷判定规则互相独立。\n"
+msgstr "*缺陷检测设置*：请根据缺陷判定标准设置各个参数，软件中会同步开启缺陷过滤相关选项。缺陷检测参数与“缺陷分割”模块中的缺陷判定规则互相独立。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/operation-model.adoc:24
+#, no-wrap
+msgid "operation_model_set_judgment_parameters.png"
+msgstr "operation_model_set_judgment_parameters.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/operation-model.adoc:27
+#, no-wrap
+msgid "*加载模型*：点击 btn:[加载模型] ，加载成功后点击btn:[下一步]进入推理界面。\n"
+msgstr "*加载模型*：点击 btn:[加载模型] ，加载成功后点击btn:[下一步]进入推理界面。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/operation-model.adoc:28
+#, no-wrap
+msgid "operation_model_load_model.png"
+msgstr "operation_model_load_model.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/operation-model.adoc:31
+#, no-wrap
+msgid "*推理并导出报表*：点击 *自动推理栏* 的btn:[启动]按钮开始推理。自动推理完成后，复核验证结果是否准确，并在人工复核栏点击对应的按钮，全部复核结束后点击btn:[导出报表] 查看准确率、过检率、漏检率等。\n"
+msgstr "*推理并导出报表*：点击 *自动推理栏* 的btn:[启动]按钮开始推理。自动推理完成后，复核验证结果是否准确，并在人工复核栏点击对应的按钮，全部复核结束后点击btn:[导出报表] 查看准确率、过检率、漏检率等。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/operation-model.adoc:32
+#, no-wrap
+msgid "operation_model_auto_infer.png"
+msgstr "operation_model_auto_infer.png"

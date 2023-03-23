@@ -1,0 +1,289 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr "Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/developer-model.adoc:1
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:1
+#, no-wrap
+msgid "如何解决困难问题"
+msgstr "Solve Difficult Problems"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/developer-model.adoc:57
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:36
+#, no-wrap
+msgid "调整训练参数"
+msgstr "Training Parameters"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/developer-model.adoc:64
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:46
+msgid ""
+"训练时输入神经网络的图像宽高（单位：像素）。建议使用默认设定；若图像中的物体"
+"或标注缺陷区域较小时，需要适当调大 *输入图像尺寸* 。图像尺寸越大，模型精度越"
+"高，但是训练速度越低。"
+msgstr "The pixel-wise height and width of the image input to the neural network for training. It is recommended to use the default setting, but if the objects or defect regions in the images are small, you need to increase the *input image size*. The larger the image size, the higher the model accuracy, but the lower the training speed."
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/developer-model.adoc:83
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:57
+msgid ""
+"模型训练时，每评估一次间隔的轮次数量。建议使用默认设定，调大 *间隔轮次* 参数"
+"可以提升训练速度 ，参数值越大训练越快；参数值越小训练越慢，但有助于挑选最优模"
+"型。"
+msgstr "The number of epochs for each evaluation interval during model training. It is recommended to use the default setting. Increasing the Eval. interval can increase the training speed. The larger the parameter, the faster the training; the smaller the parameter, the slower the training, but a smaller value helps select the optimal model."
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/developer-model.adoc:87
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:61
+msgid ""
+"模型训练的总轮次。建议使用默认设定，若待识别图像特征较复杂时，需要适当增加训"
+"练轮次，提升模型效果，但会导致训练时间变长。"
+msgstr "The total number of epochs of model training. It is recommended to use the default setting. If the features of objects to be recognized are complex, it is necessary to increase the number of training epochs appropriately to improve the model performance, but increasing the number of epochs will lead to longer training time."
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:6
+#, no-wrap
+msgid "网格剪切工具"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:9
+msgid ""
+"在工业检测场景中，如果相机采集的图像尺寸较大，那么图像中较小的缺陷会不明显。"
+"用户可以使用“缺陷分割”模块中的网格剪切工具，将尺寸较大的图像按照设置的比例剪"
+"切成大小相同的小图，便于检出较小的缺陷。该功能包含以下两个工具："
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:11
+#, no-wrap
+msgid "*网格剪切工具*：将较大的图像网格化处理，用户根据实际情况设置网格行列数后，点击btn:[应用] 。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:12
+#, no-wrap
+msgid "cutting-tool-cutting.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:15
+msgid "行数和列数不宜设置过大，否则裁切后的小图数量较多，会导致推理时间变慢。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:17
+#, no-wrap
+msgid "*网格选择工具*：网格单元左上角为勾选按钮，可根据需求选择有缺陷的和无缺陷的小图加到训练集/验证集中。如需预览剪切后的小图，可参考 xref:small-image-preview[裁切后小图缩放预览] 。\n"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:18
+#, no-wrap
+msgid "cutting-tool-crop.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:21
+msgid "btn:[选择缺陷] ，将剪切后所有包含缺陷的小图全部选入到训练集/验证集中。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:23
+msgid ""
+"btn:[选中所有] ，将剪切后的全部小图都选入训练集/验证集中，并且将没有缺陷的小"
+"图设置为 OK。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:25
+msgid "btn:[清空选中] ，清空当前图像选择。"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:27
+msgid ""
+"如果用户剪切图像后没有使用网格选择工具，会默认把 NG 图像中所有包含缺陷的小图"
+"和 OK 图像剪切的所有小图选为训练集/验证集，可能导致选入训练集/验证集的相似的 "
+"OK 图像小图过多，影响训练及优化。"
+msgstr ""
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:29
+#, no-wrap
+msgid "缺陷筛选工具"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:32
+msgid ""
+"在缺陷分割场景中，如需参照用户定义的缺陷定义标准进一步判定缺陷，或希望根据良"
+"品率重新调整缺陷占比，可以通过调整数量阈值、面积范围、最小外接矩形旋转角范"
+"围、分布区域等参数进行筛选。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:34
+#, no-wrap
+msgid "defect-judgment-rules-defect_screening.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:39
+msgid ""
+"使用模型过程中，如果有需要加速推理或提高模型精度等需求时，可以通过调整训练参"
+"数重新训练模型来优化效果。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:40
+#, no-wrap
+msgid "training-parameters-training_parameters.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:44
+#, no-wrap
+msgid "*输入图像尺寸*\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:49
+#, no-wrap
+msgid "*模型类型*\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:51
+#, no-wrap
+msgid "*标准*：一般情况下建议使用 *标准* 模式。\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:53
+#, no-wrap
+msgid "*增强*：模型效果不好或精度要求较高时可以选择 *增强* 模式，该模式会导致训练速度变慢。\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:55
+#, no-wrap
+msgid "*评估间隔轮次*\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:59
+#, no-wrap
+msgid "*总轮次*\n"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:63
+msgid ""
+"训练轮次并非越大越好。总轮次设置较大时，模型准确率稳定后会持续训练，这种情况"
+"会导致训练时间变长，且有过拟合的风险。"
+msgstr ""
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:65
+#, no-wrap
+msgid "缩放预览"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:69
+msgid ""
+"使用“缺陷分割”模块训练模型时，若图像缺陷较小，可能会影响训练效果，需要选择合"
+"适的图像尺寸。"
+msgstr ""
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:70
+#, no-wrap
+msgid "单张图像"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:73
+msgid ""
+"在数据栏右键点击需要预览的图像，点击**缩放预览**，会弹窗显示缩放预览后的图"
+"像。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:74
+#, no-wrap
+msgid "preview-resized-image-review_resized_image.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:78
+msgid "弹窗中可调整图像尺寸。用户可以点击**标注图**和**原图**查看效果。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:79
+#, no-wrap
+msgid "preview-resized-image-show_review_resized_image.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:83
+msgid ""
+"在缩放预览界面设置的图像尺寸不生效，实际用于训练的图像尺寸需在训练参数中设"
+"置。"
+msgstr ""
+
+#. type: Title ===
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:85
+#, no-wrap
+msgid "图像裁切后缩放预览"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:88
+msgid ""
+"点击btn:[网格选择工具] ，鼠标放到需要预览的小图上，点击小图右上角的预览，会弹"
+"窗显示预览后的效果图。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:89
+#, no-wrap
+msgid "preview-resized-image-big_image.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:92
+msgid ""
+"调整btn:[图像序号] 可以查看其他小图的预览效果；用户可以点击**标注图**和**原图"
+"**查看效果。"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:93
+#, no-wrap
+msgid "preview-resized-image-small_image.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/defect-segmentation/pages/solve-difficult-problems.adoc:95
+msgid ""
+"默认可以预览网格剪切后选中的图像，如需预览其它图像，需要选择 *选中所有* 后再"
+"点击小图右上角进行预览。"
+msgstr ""

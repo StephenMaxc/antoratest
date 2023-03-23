@@ -1,0 +1,265 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/developer-model.adoc:41
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/developer-model.adoc:47
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/developer-model.adoc:59
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/developer-model.adoc:116
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/developer-model.adoc:124
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/filter-images.adoc:11
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/filter-images.adoc:24
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:14
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:18
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/introduction.adoc:9
+#: mechdlkrepository/zh_CN/modules/fast-positioning/pages/introduction.adoc:13
+#, no-wrap
+msgid "Unnamed image"
+msgstr "Unnamed image"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:67
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:42
+#, no-wrap
+msgid "印章工具"
+msgstr "印章工具"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:73
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:23
+#, no-wrap
+msgid "智能标注工具"
+msgstr "智能标注工具"
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:3
+#, no-wrap
+msgid "如何提升标注质量和效率"
+msgstr "如何提升标注质量和效率"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:9
+msgid "通过改善图像质量、选用合适的标注工具等方式可以提升标注质量和效率。"
+msgstr "通过改善图像质量、选用合适的标注工具等方式可以提升标注质量和效率。"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:10
+#, no-wrap
+msgid "图像预处理"
+msgstr "图像预处理"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:13
+msgid ""
+"相机拍摄的原始图像因光照或其他因素存在图像偏暗、物体特征不明显等问题时，为提"
+"高人工标注效率，可以使image:smart_labeling_tool_preprocessing_tool."
+"png[preprocessing_tool] 图像预处理工具。通过调整亮度、对比度或色彩平衡等参"
+"数，对图像进行预处理操作。"
+msgstr ""
+"相机拍摄的原始图像因光照或其他因素存在图像偏暗、物体特征不明显等问题时，为提"
+"高人工标注效率，可以使image:smart_labeling_tool_preprocessing_tool."
+"png[preprocessing_tool] 图像预处理工具。通过调整亮度、对比度或色彩平衡等参"
+"数，对图像进行预处理操作。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:14
+#, no-wrap
+msgid "smart_labeling_tool_image_processing.png"
+msgstr "smart_labeling_tool_image_processing.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:17
+msgid "预处理前后的图像对比如下："
+msgstr "预处理前后的图像对比如下："
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:18
+#, no-wrap
+msgid "image_balance_result.png"
+msgstr "image_balance_result.png"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:21
+msgid ""
+"数据集经过图像预处理后会直接发生改变，并作为训练集/验证集/测试集参与模型训练"
+"和优化。"
+msgstr ""
+"数据集经过图像预处理后会直接发生改变，并作为训练集/验证集/测试集参与模型训练"
+"和优化。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:26
+msgid ""
+"在“缺陷分割”、“实例分割”和“目标检测”模块下，图像中多个物体颜色差异较大且散乱"
+"放置时，可以使用 *智能标注工具* 对图像中物体进行智能化标注。"
+msgstr ""
+"在“缺陷分割”、“实例分割”和“目标检测”模块下，图像中多个物体颜色差异较大且散乱"
+"放置时，可以使用 *智能标注工具* 对图像中物体进行智能化标注。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:28
+#, no-wrap
+msgid "*智能标注*：点击 image:icon_smart_label.png[icon_smart_label]\n"
+msgstr "*智能标注*：点击 image:icon_smart_label.png[icon_smart_label]\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:30
+msgid ""
+"智能标注工具按钮，鼠标左键点击待标注的物体，会出现绿点并形成标注；标注轮廓较"
+"小时，可以多次点击左键进行优化。点击鼠标右键出现红点，可以删除多余的标注。标"
+"注结束后点击 btn:[应用] 即可显示标注结果。"
+msgstr ""
+"智能标注工具按钮，鼠标左键点击待标注的物体，会出现绿点并形成标注；标注轮廓较"
+"小时，可以多次点击左键进行优化。点击鼠标右键出现红点，可以删除多余的标注。标"
+"注结束后点击 btn:[应用] 即可显示标注结果。"
+
+#. type: Positional ($1) AttributeList argument for macro 'image'
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:31
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:37
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:67
+#, no-wrap
+msgid "Center"
+msgstr "Center"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:31
+#, no-wrap
+msgid "label.gif"
+msgstr "label.gif"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:34
+msgid ""
+"图像中物体间颜色差异较大且轮廓分明时，建议同时标注多个物体后再点击 btn:[应"
+"用] ；若物体间较贴合，建议每次标注单个物体。"
+msgstr ""
+"图像中物体间颜色差异较大且轮廓分明时，建议同时标注多个物体后再点击 btn:[应"
+"用] ；若物体间较贴合，建议每次标注单个物体。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:36
+#, no-wrap
+msgid "*调整边缘*：标注轮廓不够精细时，可以使用选择工具 image:icon_select_tool.png[icon_select_tool]，选中需要调整的标注框，通过拖拽或者增删边缘的锚点的方式来优化标注结果（左键增加、右键删除），保证标注区域的轮廓与物体轮廓尽可能贴合。\n"
+msgstr "*调整边缘*：标注轮廓不够精细时，可以使用选择工具 image:icon_select_tool.png[icon_select_tool]，选中需要调整的标注框，通过拖拽或者增删边缘的锚点的方式来优化标注结果（左键增加、右键删除），保证标注区域的轮廓与物体轮廓尽可能贴合。\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:37
+#, no-wrap
+msgid "move_label.gif"
+msgstr "move_label.gif"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:40
+msgid ""
+"图像中多个物体颜色相近且堆叠摆放、物体轮廓复杂或工件反光等困难场景下，建议选"
+"择其他合适的工具进行标注。"
+msgstr ""
+"图像中多个物体颜色相近且堆叠摆放、物体轮廓复杂或工件反光等困难场景下，建议选"
+"择其他合适的工具进行标注。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:45
+msgid ""
+"在“实例分割”和“目标检测”模块下，可选择印章工具可以将已有标注设为模板。设置完"
+"成后，可以使用该模板快速标注轮廓及姿态相同的物体。该工具适用于图像中有多个摆"
+"放整齐的同类别物体的场景，可以提高标注效率。"
+msgstr ""
+"在“实例分割”和“目标检测”模块下，可选择印章工具可以将已有标注设为模板。设置完"
+"成后，可以使用该模板快速标注轮廓及姿态相同的物体。该工具适用于图像中有多个摆"
+"放整齐的同类别物体的场景，可以提高标注效率。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:47
+#, no-wrap
+msgid "*将标注设为模板*：点击工具栏的 image:icon_template_tool.png[icon_template_tool] 印章工具按钮，右键点击需要设为印章的标注，选择 btn:[将当前标注设为印章] ，模板即设置成功。\n"
+msgstr "*将标注设为模板*：点击工具栏的 image:icon_template_tool.png[icon_template_tool] 印章工具按钮，右键点击需要设为印章的标注，选择 btn:[将当前标注设为印章] ，模板即设置成功。\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:49
+msgid "image:template_tool.gif[Center,640,480]"
+msgstr "image:template_tool.gif[Center,640,480]"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:51
+#, no-wrap
+msgid "*更换模板样式*：右键点击新的标注，选择 btn:[将当前标注设为印章] 。\n"
+msgstr "*更换模板样式*：右键点击新的标注，选择 btn:[将当前标注设为印章] 。\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:53
+msgid "image:replace_template.gif[Center,640,480]"
+msgstr "image:replace_template.gif[Center,640,480]"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:55
+#, no-wrap
+msgid "*调整标注*：如果复制的标签模板无法完全符合需求，可以在标注结束后切换到 image:icon_choose_tool.png[icon_choose_tool] 选择模式。选中需要调整的标签，拖动锚点调整轮廓。若需要调整角度，可以拖动标签上方的 image:icon_rotate.png[icon_rotate]旋转按钮进行调整。\n"
+msgstr "*调整标注*：如果复制的标签模板无法完全符合需求，可以在标注结束后切换到 image:icon_choose_tool.png[icon_choose_tool] 选择模式。选中需要调整的标签，拖动锚点调整轮廓。若需要调整角度，可以拖动标签上方的 image:icon_rotate.png[icon_rotate]旋转按钮进行调整。\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:57
+msgid "image:modifying_dimensions.gif[Center,640,480]"
+msgstr "image:modifying_dimensions.gif[Center,640,480]"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:59
+msgid ""
+"标注结果为多边形轮廓时，右键点击任意锚点可以删除该锚点。将光标置于两锚点之"
+"间，左键点击线段可新增锚点。"
+msgstr ""
+"标注结果为多边形轮廓时，右键点击任意锚点可以删除该锚点。将光标置于两锚点之"
+"间，左键点击线段可新增锚点。"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:60
+#, no-wrap
+msgid "图像掩膜工具"
+msgstr "图像掩膜工具"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:64
+msgid ""
+"若图像中存在一些不相关且干扰训练的部分，可用掩膜工具 image:icon_mask."
+"png[icon_mask]遮盖。被遮盖的部分不参与模型训练。"
+msgstr ""
+"若图像中存在一些不相关且干扰训练的部分，可用掩膜工具 image:icon_mask."
+"png[icon_mask]遮盖。被遮盖的部分不参与模型训练。"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:66
+msgid ""
+"例如，图像中物体特征不符合用户缺陷判定标准，但和缺陷形态相似的，需要遮盖容易"
+"混淆的区域。"
+msgstr ""
+"例如，图像中物体特征不符合用户缺陷判定标准，但和缺陷形态相似的，需要遮盖容易"
+"混淆的区域。"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:67
+#, no-wrap
+msgid "mask.gif"
+msgstr "mask.gif"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:69
+msgid ""
+"用户可以根据实际情况选择合适的掩膜工具，使用掩膜工具遮盖的区域不会参与模型训"
+"练。"
+msgstr ""
+"用户可以根据实际情况选择合适的掩膜工具，使用掩膜工具遮盖的区域不会参与模型训"
+"练。"

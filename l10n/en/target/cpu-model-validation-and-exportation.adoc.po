@@ -1,0 +1,151 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr "Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/classification/pages/cpu-model-validation-and-exportation.adoc:1
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/cpu-model-validation-and-exportation.adoc:1
+#, no-wrap
+msgid "CPU 和 GPU 版本模型部署"
+msgstr "CPU and GPU Model Deployment"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/classification/pages/cpu-model-validation-and-exportation.adoc:5
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/cpu-model-validation-and-exportation.adoc:5
+#, no-wrap
+msgid "CPU 版本模型部署"
+msgstr "CPU Model Deployment"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/cpu-model-validation-and-exportation.adoc:8
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/cpu-model-validation-and-exportation.adoc:9
+msgid "模型部署在 CPU 设备时，将 *部署设备* 选择为 *CPU*。"
+msgstr "If the model is to be deployed on a CPU device, please select *CPU* for *Deployment device*."
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/cpu-model-validation-and-exportation.adoc:9
+#, no-wrap
+msgid "cpu-model-validation-and-exportation-classification_cpu_deployment.png"
+msgstr ""
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/classification/pages/cpu-model-validation-and-exportation.adoc:11
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/cpu-model-validation-and-exportation.adoc:13
+#, no-wrap
+msgid "GPU 版本模型部署"
+msgstr "GPU Model Deployment"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/cpu-model-validation-and-exportation.adoc:14
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/cpu-model-validation-and-exportation.adoc:33
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/cpu-model-validation-and-exportation.adoc:17
+msgid "模型部署在 GPU 设备时，将 *部署设备* 选择为 *GPU*。"
+msgstr "If the model is to be deployed on a GPU device, please select *GPU* for *Deployment device*."
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/cpu-model-validation-and-exportation.adoc:16
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/cpu-model-validation-and-exportation.adoc:35
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/cpu-model-validation-and-exportation.adoc:19
+#, no-wrap
+msgid "*dlkmo*：模型需要优化大约 5 分钟 ，适用于训练模型与部署模型使用的设备 GPU 显卡型号不同的情况。\n"
+msgstr "*dlkmo*: The model optimization takes about 5 minutes. This model type is for the situation where the GPU graphics card models are different for model training and model deployment.\n"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/classification/pages/cpu-model-validation-and-exportation.adoc:17
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/cpu-model-validation-and-exportation.adoc:37
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/cpu-model-validation-and-exportation.adoc:21
+#, no-wrap
+msgid "*dlkmt*：模型无需优化可以直接导出使用，仅支持训练模型与部署模型使用的设备 GPU 显卡型号相同的情况。\n"
+msgstr "*dlkmt*: No optimization is required for this type. This model type is for the situation where the GPU graphics card models are the same for model training and model deployment.\n"
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/classification/pages/cpu-model-validation-and-exportation.adoc:18
+#, no-wrap
+msgid "cpu-model-validation-and-exportation-classification_gpu_deployment.png"
+msgstr ""
+
+#. type: Title =
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/cpu-model-validation-and-exportation.adoc:1
+#, no-wrap
+msgid "CPU 和 GPU 版本模型的训练及部署"
+msgstr "CPU and GPU Model Training and Deployment"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/cpu-model-validation-and-exportation.adoc:8
+#, no-wrap
+msgid "CPU 版本模型训练与部署"
+msgstr "CPU Model Training and Deployment署"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/cpu-model-validation-and-exportation.adoc:11
+msgid ""
+"模型部署在 CPU 设备时，训练参数中推荐将 *模型类型* 选择为 *轻量（推荐CPU部"
+"署）* 。"
+msgstr "If the model is to be deployed on a CPU device, it is recommended to select *Lite (better with CPU deployment)*."
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/cpu-model-validation-and-exportation.adoc:13
+#, no-wrap
+msgid "cpu-model-validation-and-exportation-instance_cpu_training.png"
+msgstr ""
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/cpu-model-validation-and-exportation.adoc:17
+msgid "将 *部署设备* 选择为 *CPU*。"
+msgstr "Select *CPU* for *Deployment device*."
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/cpu-model-validation-and-exportation.adoc:19
+#, no-wrap
+msgid "cpu-model-validation-and-exportation-instance_cpu_deployment.png"
+msgstr ""
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/cpu-model-validation-and-exportation.adoc:24
+#, no-wrap
+msgid "GPU 版本模型训练与部署"
+msgstr "GPU Model Training and Deployment"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/cpu-model-validation-and-exportation.adoc:28
+msgid ""
+"模型部署在 GPU 设备时，训练参数中推荐将 *模型类型* 选择为 *标准（推荐GPU部"
+"署）* 。"
+msgstr "If the model is to be deployed on a GPU device, it is recommended to select *Normal (better with GPU deployment)*."
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/cpu-model-validation-and-exportation.adoc:29
+#, no-wrap
+msgid "cpu-model-validation-and-exportation-instance_gpu_training.png"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/instance-segmentation/pages/cpu-model-validation-and-exportation.adoc:38
+#, no-wrap
+msgid "cpu-model-validation-and-exportation-instance_gpu_deployment.png"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/cpu-model-validation-and-exportation.adoc:10
+#, no-wrap
+msgid "cpu-model-validation-and-exportation-image::cpu-model-validation-and-exportation-object_cpu_deployment.png"
+msgstr ""
+
+#. type: Target for macro image
+#: mechdlkrepository/zh_CN/modules/object-detection/pages/cpu-model-validation-and-exportation.adoc:23
+#, no-wrap
+msgid "cpu-model-validation-and-exportation-image::cpu-model-validation-and-exportation-object_gpu_deployment.png"
+msgstr ""

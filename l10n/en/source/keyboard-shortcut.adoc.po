@@ -1,0 +1,741 @@
+# English translations for Antora package
+# Copyright (C) 2023 Translator
+# This file is distributed under the same license as the Antora package.
+# Automatically generated, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Antora 1.0\n"
+"POT-Creation-Date: 2023-03-21 20:24-0700\n"
+"PO-Revision-Date: 2023-03-21 20:24-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:1
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:5
+#, no-wrap
+msgid "快捷键"
+msgstr "快捷键"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:5
+#, no-wrap
+msgid "编号"
+msgstr "编号"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:5
+#, no-wrap
+msgid "功能"
+msgstr "功能"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:7
+#, no-wrap
+msgid "其他说明"
+msgstr "其他说明"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:7
+#, no-wrap
+msgid "1"
+msgstr "1"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:7
+#, no-wrap
+msgid "新建工程"
+msgstr "新建工程"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:7
+#, no-wrap
+msgid "Ctrl + n/N"
+msgstr "Ctrl + n/N"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:9
+#, no-wrap
+msgid "2"
+msgstr "2"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:9
+#, no-wrap
+msgid "保存工程"
+msgstr "保存工程"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:9
+#, no-wrap
+msgid "Ctrl + s/S"
+msgstr "Ctrl + s/S"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:11
+#, no-wrap
+msgid "3"
+msgstr "3"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:11
+#, no-wrap
+msgid "打开工程"
+msgstr "打开工程"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:11
+#, no-wrap
+msgid "Ctrl + o/O"
+msgstr "Ctrl + o/O"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:13
+#, no-wrap
+msgid "4"
+msgstr "4"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:13
+#, no-wrap
+msgid "撤销(Undo)标注"
+msgstr "撤销(Undo)标注"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:13
+#, no-wrap
+msgid "Ctrl + y/Y"
+msgstr "Ctrl + y/Y"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:15
+#, no-wrap
+msgid "5"
+msgstr "5"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:15
+#, no-wrap
+msgid "恢复(Redo)标注"
+msgstr "恢复(Redo)标注"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:15
+#, no-wrap
+msgid "Ctrl + z/Z"
+msgstr "Ctrl + z/Z"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:17
+#, no-wrap
+msgid "6"
+msgstr "6"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:17
+#, no-wrap
+msgid "复制标注"
+msgstr "复制标注"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:17
+#, no-wrap
+msgid "Ctrl + c/C"
+msgstr "Ctrl + c/C"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:19
+#, no-wrap
+msgid "7"
+msgstr "7"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:19
+#, no-wrap
+msgid "粘贴标注"
+msgstr "粘贴标注"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:19
+#, no-wrap
+msgid "Ctrl + v/V"
+msgstr "Ctrl + v/V"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:21
+#, no-wrap
+msgid "8"
+msgstr "8"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:21
+#, no-wrap
+msgid "全选标注"
+msgstr "全选标注"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:21
+#, no-wrap
+msgid "Ctrl + a/A"
+msgstr "Ctrl + a/A"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:23
+#, no-wrap
+msgid "9"
+msgstr "9"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:23
+#, no-wrap
+msgid "删除标注"
+msgstr "删除标注"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:23
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:65
+#, no-wrap
+msgid "Delete"
+msgstr "Delete"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:25
+#, no-wrap
+msgid "焦点在标注页内，选中标注项"
+msgstr "焦点在标注页内，选中标注项"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:25
+#, no-wrap
+msgid "10"
+msgstr "10"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:25
+#, no-wrap
+msgid "椭圆工具"
+msgstr "椭圆工具"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:25
+#, no-wrap
+msgid "l / L"
+msgstr "l / L"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:27
+#, no-wrap
+msgid "11"
+msgstr "11"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:27
+#, no-wrap
+msgid "多边形工具"
+msgstr "多边形工具"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:27
+#, no-wrap
+msgid "p / P"
+msgstr "p / P"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:29
+#, no-wrap
+msgid "12"
+msgstr "12"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:29
+#, no-wrap
+msgid "多边形完成绘制"
+msgstr "多边形完成绘制"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:29
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:75
+#, no-wrap
+msgid "Enter"
+msgstr "Enter"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:31
+#, no-wrap
+msgid "13"
+msgstr "13"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:31
+#, no-wrap
+msgid "矩形工具"
+msgstr "矩形工具"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:31
+#, no-wrap
+msgid "r / R"
+msgstr "r / R"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:33
+#, no-wrap
+msgid "14"
+msgstr "14"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:33
+#, no-wrap
+msgid "画笔工具"
+msgstr "画笔工具"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:33
+#, no-wrap
+msgid "b / B"
+msgstr "b / B"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:35
+#, no-wrap
+msgid "15"
+msgstr "15"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:35
+#, no-wrap
+msgid "自动填充套索工具"
+msgstr "自动填充套索工具"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:35
+#, no-wrap
+msgid "a / A"
+msgstr "a / A"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:37
+#, no-wrap
+msgid "16"
+msgstr "16"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:37
+#, no-wrap
+msgid "标注橡皮工具"
+msgstr "标注橡皮工具"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:37
+#, no-wrap
+msgid "e / E"
+msgstr "e / E"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:39
+#, no-wrap
+msgid "17"
+msgstr "17"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:39
+#, no-wrap
+msgid "自动标注工具"
+msgstr "自动标注工具"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:39
+#, no-wrap
+msgid "t / T"
+msgstr "t / T"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:41
+#, no-wrap
+msgid "18"
+msgstr "18"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:41
+#, no-wrap
+msgid "掩膜多边形工具"
+msgstr "掩膜多边形工具"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:41
+#, no-wrap
+msgid "Shift + p/P"
+msgstr "Shift + p/P"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:43
+#, no-wrap
+msgid "19"
+msgstr "19"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:43
+#, no-wrap
+msgid "掩膜画笔工具"
+msgstr "掩膜画笔工具"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:43
+#, no-wrap
+msgid "Shift + b/B"
+msgstr "Shift + b/B"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:45
+#, no-wrap
+msgid "20"
+msgstr "20"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:45
+#, no-wrap
+msgid "掩膜套索工具"
+msgstr "掩膜套索工具"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:45
+#, no-wrap
+msgid "Shift + a/A"
+msgstr "Shift + a/A"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:47
+#, no-wrap
+msgid "21"
+msgstr "21"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:47
+#, no-wrap
+msgid "掩膜橡皮工具"
+msgstr "掩膜橡皮工具"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:47
+#, no-wrap
+msgid "Shift + e/E"
+msgstr "Shift + e/E"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:49
+#, no-wrap
+msgid "22"
+msgstr "22"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:49
+#, no-wrap
+msgid "网格裁剪工具"
+msgstr "网格裁剪工具"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:49
+#, no-wrap
+msgid "u / U"
+msgstr "u / U"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:51
+#, no-wrap
+msgid "23"
+msgstr "23"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:51
+#, no-wrap
+msgid "网格选择工具"
+msgstr "网格选择工具"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:51
+#, no-wrap
+msgid "i / I"
+msgstr "i / I"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:53
+#, no-wrap
+msgid "24"
+msgstr "24"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:53
+#, no-wrap
+msgid "特征组标注工具"
+msgstr "特征组标注工具"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:53
+#, no-wrap
+msgid "f / F"
+msgstr "f / F"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:55
+#, no-wrap
+msgid "、"
+msgstr "、"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:55
+#, no-wrap
+msgid "25"
+msgstr "25"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:55
+#, no-wrap
+msgid "ROI工具"
+msgstr "ROI工具"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:55
+#, no-wrap
+msgid "o / O"
+msgstr "o / O"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:57
+#, no-wrap
+msgid "26"
+msgstr "26"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:57
+#, no-wrap
+msgid "选择工具"
+msgstr "选择工具"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:57
+#, no-wrap
+msgid "s / S"
+msgstr "s / S"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:59
+#, no-wrap
+msgid "27"
+msgstr "27"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:59
+#, no-wrap
+msgid "清空当前页面标注"
+msgstr "清空当前页面标注"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:59
+#, no-wrap
+msgid "Ctrl + d/D"
+msgstr "Ctrl + d/D"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:61
+#, no-wrap
+msgid "28"
+msgstr "28"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:61
+#, no-wrap
+msgid "切换标签显示"
+msgstr "切换标签显示"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:61
+#, no-wrap
+msgid "Ctrl + l/L"
+msgstr "Ctrl + l/L"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:63
+#, no-wrap
+msgid "29"
+msgstr "29"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:63
+#, no-wrap
+msgid "切换预测显示"
+msgstr "切换预测显示"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:63
+#, no-wrap
+msgid "Ctrl + p/P"
+msgstr "Ctrl + p/P"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:65
+#, no-wrap
+msgid "30"
+msgstr "30"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:65
+#, no-wrap
+msgid "删除数据集图片"
+msgstr "删除数据集图片"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:67
+#, no-wrap
+msgid "焦点在数据集窗口页，选中图像数据"
+msgstr "焦点在数据集窗口页，选中图像数据"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:67
+#, no-wrap
+msgid "31"
+msgstr "31"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:67
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:42
+#, no-wrap
+msgid "印章工具"
+msgstr "印章工具"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:67
+#, no-wrap
+msgid "c / C"
+msgstr "c / C"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:69
+#, no-wrap
+msgid "32"
+msgstr "32"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:69
+#, no-wrap
+msgid "印章工具选择模板"
+msgstr "印章工具选择模板"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:69
+#, no-wrap
+msgid "Ctrl + 鼠标左键"
+msgstr "Ctrl + 鼠标左键"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:71
+#, no-wrap
+msgid "33"
+msgstr "33"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:71
+#, no-wrap
+msgid "切换相邻图片"
+msgstr "切换相邻图片"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:71
+#, no-wrap
+msgid "⬆、⬇"
+msgstr "⬆、⬇"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:73
+#, no-wrap
+msgid "34"
+msgstr "34"
+
+#. type: Title ==
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:73
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/smart-labeling-tool.adoc:23
+#, no-wrap
+msgid "智能标注工具"
+msgstr "智能标注工具"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:73
+#, no-wrap
+msgid "m / M"
+msgstr "m / M"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:75
+#, no-wrap
+msgid "35"
+msgstr "35"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:75
+#, no-wrap
+msgid "智能标注应用"
+msgstr "智能标注应用"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:77
+#, no-wrap
+msgid "36"
+msgstr "36"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:77
+#, no-wrap
+msgid "智能标注取消"
+msgstr "智能标注取消"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:77
+#, no-wrap
+msgid "q / Q"
+msgstr "q / Q"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:79
+#, no-wrap
+msgid "37"
+msgstr "37"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:79
+#, no-wrap
+msgid "切换到选择模式"
+msgstr "切换到选择模式"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:79
+#, no-wrap
+msgid "Esc"
+msgstr "Esc"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:81
+#, no-wrap
+msgid "38"
+msgstr "38"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:81
+#, no-wrap
+msgid "调整橡皮工具/画笔大小"
+msgstr "调整橡皮工具/画笔大小"
+
+#. type: Table
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:81
+#, no-wrap
+msgid "⬅➡"
+msgstr "⬅➡"
+
+#. type: Plain text
+#: mechdlkrepository/zh_CN/modules/advanced-guide/pages/keyboard-shortcut.adoc:85
+msgid "将鼠标悬停在界面的工具图标上，可快速查看该工具对应的键盘符号。"
+msgstr "将鼠标悬停在界面的工具图标上，可快速查看该工具对应的键盘符号。"
